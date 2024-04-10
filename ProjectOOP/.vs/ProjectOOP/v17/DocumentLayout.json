@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C#\\Develop Desktop Applications\\FinalProject\\ProjectOOP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC15C5F1-71A1-46D1-BA85-4A2265A481AC}|ProjectOOP\\ProjectOOP.csproj|d:\\c#\\develop desktop applications\\finalproject\\projectoop\\projectoop\\formwallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC15C5F1-71A1-46D1-BA85-4A2265A481AC}|ProjectOOP\\ProjectOOP.csproj|solutionrelative:projectoop\\formwallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC15C5F1-71A1-46D1-BA85-4A2265A481AC}|ProjectOOP\\ProjectOOP.csproj|d:\\c#\\develop desktop applications\\finalproject\\projectoop\\projectoop\\formhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC15C5F1-71A1-46D1-BA85-4A2265A481AC}|ProjectOOP\\ProjectOOP.csproj|solutionrelative:projectoop\\formhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC15C5F1-71A1-46D1-BA85-4A2265A481AC}|ProjectOOP\\ProjectOOP.csproj|d:\\c#\\develop desktop applications\\finalproject\\projectoop\\projectoop\\forminfoaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC15C5F1-71A1-46D1-BA85-4A2265A481AC}|ProjectOOP\\ProjectOOP.csproj|solutionrelative:projectoop\\forminfoaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC15C5F1-71A1-46D1-BA85-4A2265A481AC}|ProjectOOP\\ProjectOOP.csproj|d:\\c#\\develop desktop applications\\finalproject\\projectoop\\projectoop\\formbalanceonday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC15C5F1-71A1-46D1-BA85-4A2265A481AC}|ProjectOOP\\ProjectOOP.csproj|solutionrelative:projectoop\\formbalanceonday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC15C5F1-71A1-46D1-BA85-4A2265A481AC}|ProjectOOP\\ProjectOOP.csproj|D:\\C#\\Develop Desktop Applications\\FinalProject\\ProjectOOP\\projectoop\\formnav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC15C5F1-71A1-46D1-BA85-4A2265A481AC}|ProjectOOP\\ProjectOOP.csproj|solutionrelative:projectoop\\formnav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC15C5F1-71A1-46D1-BA85-4A2265A481AC}|ProjectOOP\\ProjectOOP.csproj|D:\\C#\\Develop Desktop Applications\\FinalProject\\ProjectOOP\\projectoop\\formstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC15C5F1-71A1-46D1-BA85-4A2265A481AC}|ProjectOOP\\ProjectOOP.csproj|solutionrelative:projectoop\\formstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC15C5F1-71A1-46D1-BA85-4A2265A481AC}|ProjectOOP\\ProjectOOP.csproj|D:\\C#\\Develop Desktop Applications\\FinalProject\\ProjectOOP\\projectoop\\formotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC15C5F1-71A1-46D1-BA85-4A2265A481AC}|ProjectOOP\\ProjectOOP.csproj|solutionrelative:projectoop\\formotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC15C5F1-71A1-46D1-BA85-4A2265A481AC}|ProjectOOP\\ProjectOOP.csproj|D:\\C#\\Develop Desktop Applications\\FinalProject\\ProjectOOP\\projectoop\\formhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC15C5F1-71A1-46D1-BA85-4A2265A481AC}|ProjectOOP\\ProjectOOP.csproj|solutionrelative:projectoop\\formhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC15C5F1-71A1-46D1-BA85-4A2265A481AC}|ProjectOOP\\ProjectOOP.csproj|D:\\C#\\Develop Desktop Applications\\FinalProject\\ProjectOOP\\projectoop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FC15C5F1-71A1-46D1-BA85-4A2265A481AC}|ProjectOOP\\ProjectOOP.csproj|solutionrelative:projectoop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "formHistory.cs [Design]",
+              "DocumentMoniker": "D:\\C#\\Develop Desktop Applications\\FinalProject\\ProjectOOP\\ProjectOOP\\formHistory.cs",
+              "RelativeDocumentMoniker": "ProjectOOP\\formHistory.cs",
+              "ToolTip": "D:\\C#\\Develop Desktop Applications\\FinalProject\\ProjectOOP\\ProjectOOP\\formHistory.cs [Design]",
+              "RelativeToolTip": "ProjectOOP\\formHistory.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T09:07:06.548Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "formWallet.cs [Design]",
+              "DocumentMoniker": "D:\\C#\\Develop Desktop Applications\\FinalProject\\ProjectOOP\\ProjectOOP\\formWallet.cs",
+              "RelativeDocumentMoniker": "ProjectOOP\\formWallet.cs",
+              "ToolTip": "D:\\C#\\Develop Desktop Applications\\FinalProject\\ProjectOOP\\ProjectOOP\\formWallet.cs [Design]",
+              "RelativeToolTip": "ProjectOOP\\formWallet.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T08:51:37.263Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "formBalanceOnDay.cs [Design]",
+              "DocumentMoniker": "D:\\C#\\Develop Desktop Applications\\FinalProject\\ProjectOOP\\ProjectOOP\\formBalanceOnDay.cs",
+              "RelativeDocumentMoniker": "ProjectOOP\\formBalanceOnDay.cs",
+              "ToolTip": "D:\\C#\\Develop Desktop Applications\\FinalProject\\ProjectOOP\\ProjectOOP\\formBalanceOnDay.cs [Design]",
+              "RelativeToolTip": "ProjectOOP\\formBalanceOnDay.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T07:43:53.809Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "formInfoAccount.cs [Design]",
+              "DocumentMoniker": "D:\\C#\\Develop Desktop Applications\\FinalProject\\ProjectOOP\\ProjectOOP\\formInfoAccount.cs",
+              "RelativeDocumentMoniker": "ProjectOOP\\formInfoAccount.cs",
+              "ToolTip": "D:\\C#\\Develop Desktop Applications\\FinalProject\\ProjectOOP\\ProjectOOP\\formInfoAccount.cs [Design]",
+              "RelativeToolTip": "ProjectOOP\\formInfoAccount.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T06:54:48.787Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "formNav.cs [Design]",
+              "DocumentMoniker": "D:\\C#\\Develop Desktop Applications\\FinalProject\\ProjectOOP\\ProjectOOP\\formNav.cs",
+              "RelativeDocumentMoniker": "ProjectOOP\\formNav.cs",
+              "ToolTip": "D:\\C#\\Develop Desktop Applications\\FinalProject\\ProjectOOP\\ProjectOOP\\formNav.cs [Design]",
+              "RelativeToolTip": "ProjectOOP\\formNav.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T18:37:35.223Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "formHome.cs [Design]",
+              "DocumentMoniker": "D:\\C#\\Develop Desktop Applications\\FinalProject\\ProjectOOP\\ProjectOOP\\formHome.cs",
+              "RelativeDocumentMoniker": "ProjectOOP\\formHome.cs",
+              "ToolTip": "D:\\C#\\Develop Desktop Applications\\FinalProject\\ProjectOOP\\ProjectOOP\\formHome.cs [Design]",
+              "RelativeToolTip": "ProjectOOP\\formHome.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T18:12:35.924Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "formOTP.cs [Design]",
+              "DocumentMoniker": "D:\\C#\\Develop Desktop Applications\\FinalProject\\ProjectOOP\\ProjectOOP\\formOTP.cs",
+              "RelativeDocumentMoniker": "ProjectOOP\\formOTP.cs",
+              "ToolTip": "D:\\C#\\Develop Desktop Applications\\FinalProject\\ProjectOOP\\ProjectOOP\\formOTP.cs [Design]",
+              "RelativeToolTip": "ProjectOOP\\formOTP.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T17:59:21.509Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "formStart.cs [Design]",
+              "DocumentMoniker": "D:\\C#\\Develop Desktop Applications\\FinalProject\\ProjectOOP\\ProjectOOP\\formStart.cs",
+              "RelativeDocumentMoniker": "ProjectOOP\\formStart.cs",
+              "ToolTip": "D:\\C#\\Develop Desktop Applications\\FinalProject\\ProjectOOP\\ProjectOOP\\formStart.cs [Design]",
+              "RelativeToolTip": "ProjectOOP\\formStart.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T17:09:54.12Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\C#\\Develop Desktop Applications\\FinalProject\\ProjectOOP\\ProjectOOP\\Form1.cs",
+              "RelativeDocumentMoniker": "ProjectOOP\\Form1.cs",
+              "ToolTip": "D:\\C#\\Develop Desktop Applications\\FinalProject\\ProjectOOP\\ProjectOOP\\Form1.cs [Design]",
+              "RelativeToolTip": "ProjectOOP\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T01:20:46.166Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
