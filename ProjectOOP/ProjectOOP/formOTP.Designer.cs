@@ -40,39 +40,43 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("SF Pro Display", 21.8571434F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Font = new Font("Microsoft Sans Serif", 21.8571434F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.FromArgb(241, 111, 51);
-            label1.Location = new Point(12, 155);
+            label1.Location = new Point(8, 103);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(258, 61);
+            label1.Size = new Size(203, 42);
             label1.TabIndex = 3;
             label1.Text = "Nhập OTP";
             // 
             // statusBar
             // 
             statusBar.BackgroundImage = Properties.Resources.Status_Bar___iPhone;
-            statusBar.Location = new Point(-5, -1);
+            statusBar.Location = new Point(-3, -1);
+            statusBar.Margin = new Padding(2, 2, 2, 2);
             statusBar.Name = "statusBar";
-            statusBar.Size = new Size(573, 84);
+            statusBar.Size = new Size(382, 56);
             statusBar.TabIndex = 4;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("SF Pro Display", 11.1428576F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(12, 246);
+            label2.Font = new Font("Microsoft Sans Serif", 11.1428576F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(8, 164);
+            label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(502, 32);
+            label2.Size = new Size(365, 24);
             label2.TabIndex = 5;
             label2.Text = " Đã gủi OTP đến số điện thoại 012345678 ";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("SF Pro Display", 11.1428576F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(22, 290);
+            label3.Font = new Font("Microsoft Sans Serif", 11.1428576F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Location = new Point(15, 193);
+            label3.Margin = new Padding(2, 0, 2, 0);
             label3.Name = "label3";
-            label3.Size = new Size(263, 32);
+            label3.Size = new Size(196, 24);
             label3.TabIndex = 6;
             label3.Text = "để xác nhận tài khoản";
             // 
@@ -80,19 +84,21 @@
             // 
             tbxEnterOTP.BackColor = Color.WhiteSmoke;
             tbxEnterOTP.BorderStyle = BorderStyle.FixedSingle;
-            tbxEnterOTP.Font = new Font("SF Pro Display", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            tbxEnterOTP.Location = new Point(22, 351);
+            tbxEnterOTP.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            tbxEnterOTP.Location = new Point(15, 234);
+            tbxEnterOTP.Margin = new Padding(2, 2, 2, 2);
             tbxEnterOTP.Multiline = true;
             tbxEnterOTP.Name = "tbxEnterOTP";
-            tbxEnterOTP.Size = new Size(510, 72);
+            tbxEnterOTP.Size = new Size(341, 49);
             tbxEnterOTP.TabIndex = 7;
             // 
             // panelNumberKey
             // 
             panelNumberKey.BackgroundImage = Properties.Resources.NumericKeyboard1;
-            panelNumberKey.Location = new Point(-4, 748);
+            panelNumberKey.Location = new Point(-3, 499);
+            panelNumberKey.Margin = new Padding(2, 2, 2, 2);
             panelNumberKey.Name = "panelNumberKey";
-            panelNumberKey.Size = new Size(566, 453);
+            panelNumberKey.Size = new Size(377, 302);
             panelNumberKey.TabIndex = 8;
             // 
             // btnStartNow
@@ -100,21 +106,22 @@
             btnStartNow.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             btnStartNow.BackColor = Color.FromArgb(0, 94, 104);
             btnStartNow.FlatStyle = FlatStyle.Flat;
-            btnStartNow.Font = new Font("SF Pro Display", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnStartNow.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btnStartNow.ForeColor = Color.White;
-            btnStartNow.Location = new Point(22, 649);
+            btnStartNow.Location = new Point(15, 433);
+            btnStartNow.Margin = new Padding(2, 2, 2, 2);
             btnStartNow.Name = "btnStartNow";
-            btnStartNow.Size = new Size(510, 80);
+            btnStartNow.Size = new Size(340, 53);
             btnStartNow.TabIndex = 9;
             btnStartNow.Text = "Xác nhận";
             btnStartNow.UseVisualStyleBackColor = false;
             // 
             // formOTP
             // 
-            AutoScaleDimensions = new SizeF(12F, 30F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(561, 1202);
+            ClientSize = new Size(374, 703);
             Controls.Add(btnStartNow);
             Controls.Add(panelNumberKey);
             Controls.Add(tbxEnterOTP);
@@ -122,7 +129,9 @@
             Controls.Add(label2);
             Controls.Add(statusBar);
             Controls.Add(label1);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "formOTP";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "formOTP";
             WindowState = FormWindowState.Minimized;
             ResumeLayout(false);

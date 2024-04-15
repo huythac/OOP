@@ -8,19 +8,19 @@
     "net7.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
+    "C:\\Users\\ACER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#\\Develop Desktop Applications\\FinalProject\\ProjectOOP\\ProjectOOP\\ProjectOOP.csproj",
+      "projectUniqueName": "D:\\OOP-C#\\Đồ án\\OOP\\ProjectOOP\\ProjectOOP\\ProjectOOP.csproj",
       "projectName": "ProjectOOP",
-      "projectPath": "D:\\C#\\Develop Desktop Applications\\FinalProject\\ProjectOOP\\ProjectOOP\\ProjectOOP.csproj",
-      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\C#\\Develop Desktop Applications\\FinalProject\\ProjectOOP\\ProjectOOP\\obj\\",
+      "projectPath": "D:\\OOP-C#\\Đồ án\\OOP\\ProjectOOP\\ProjectOOP\\ProjectOOP.csproj",
+      "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+      "outputPath": "D:\\OOP-C#\\Đồ án\\OOP\\ProjectOOP\\ProjectOOP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -40,11 +40,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -69,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -35,27 +35,31 @@
             // indicator
             // 
             indicator.BackgroundImage = Properties.Resources.homeIndicator1;
-            indicator.Location = new Point(-5, 1150);
+            indicator.Location = new Point(-3, 767);
+            indicator.Margin = new Padding(2, 2, 2, 2);
             indicator.Name = "indicator";
-            indicator.Size = new Size(573, 50);
+            indicator.Size = new Size(382, 33);
             indicator.TabIndex = 28;
             // 
             // statusBar
             // 
             statusBar.BackgroundImage = Properties.Resources.Status_Bar___iPhone;
             statusBar.Location = new Point(0, 0);
+            statusBar.Margin = new Padding(2, 2, 2, 2);
             statusBar.Name = "statusBar";
-            statusBar.Size = new Size(573, 84);
+            statusBar.Size = new Size(382, 56);
             statusBar.TabIndex = 20;
             // 
             // formHistory
             // 
-            AutoScaleDimensions = new SizeF(12F, 30F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(561, 1202);
+            ClientSize = new Size(374, 703);
             Controls.Add(statusBar);
             Controls.Add(indicator);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "formHistory";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "formHistory";
             ResumeLayout(false);
         }

@@ -52,17 +52,19 @@
             background.Controls.Add(btnBack);
             background.Controls.Add(pictureBox1);
             background.Location = new Point(0, 0);
+            background.Margin = new Padding(2, 2, 2, 2);
             background.Name = "background";
-            background.Size = new Size(562, 409);
+            background.Size = new Size(375, 273);
             background.TabIndex = 0;
             // 
             // btnBack
             // 
             btnBack.BackColor = Color.Transparent;
             btnBack.Image = Properties.Resources.iconArrow;
-            btnBack.Location = new Point(29, 73);
+            btnBack.Location = new Point(19, 49);
+            btnBack.Margin = new Padding(2, 2, 2, 2);
             btnBack.Name = "btnBack";
-            btnBack.Size = new Size(72, 72);
+            btnBack.Size = new Size(48, 48);
             btnBack.TabIndex = 16;
             btnBack.UseVisualStyleBackColor = false;
             // 
@@ -71,20 +73,22 @@
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.BackgroundImageLayout = ImageLayout.Center;
             pictureBox1.Image = Properties.Resources.LargeAvatar;
-            pictureBox1.Location = new Point(206, 274);
+            pictureBox1.Location = new Point(137, 183);
+            pictureBox1.Margin = new Padding(2, 2, 2, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(132, 132);
+            pictureBox1.Size = new Size(88, 88);
             pictureBox1.TabIndex = 15;
             pictureBox1.TabStop = false;
             // 
             // lblTitle
             // 
             lblTitle.AutoSize = true;
-            lblTitle.Font = new Font("SF Pro Display", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            lblTitle.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Bold, GraphicsUnit.Point);
             lblTitle.ForeColor = Color.FromArgb(0, 94, 104);
-            lblTitle.Location = new Point(106, 449);
+            lblTitle.Location = new Point(71, 299);
+            lblTitle.Margin = new Padding(2, 0, 2, 0);
             lblTitle.Name = "lblTitle";
-            lblTitle.Size = new Size(330, 50);
+            lblTitle.Size = new Size(251, 36);
             lblTitle.TabIndex = 4;
             lblTitle.Text = "Phạm Thành Đạt";
             lblTitle.Click += lblTitle_Click;
@@ -92,44 +96,48 @@
             // lblNameVehicle
             // 
             lblNameVehicle.AutoSize = true;
-            lblNameVehicle.Font = new Font("SF Pro Display", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            lblNameVehicle.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
             lblNameVehicle.ForeColor = Color.Black;
-            lblNameVehicle.Location = new Point(47, 512);
+            lblNameVehicle.Location = new Point(31, 341);
+            lblNameVehicle.Margin = new Padding(2, 0, 2, 0);
             lblNameVehicle.Name = "lblNameVehicle";
-            lblNameVehicle.Size = new Size(458, 33);
+            lblNameVehicle.Size = new Size(362, 25);
             lblNameVehicle.TabIndex = 5;
             lblNameVehicle.Text = "Phương tiện: Bugatti La Voatio Noire";
             // 
             // lblCarCode
             // 
             lblCarCode.AutoSize = true;
-            lblCarCode.Font = new Font("SF Pro Display", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            lblCarCode.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
             lblCarCode.ForeColor = Color.Black;
-            lblCarCode.Location = new Point(130, 559);
+            lblCarCode.Location = new Point(87, 373);
+            lblCarCode.Margin = new Padding(2, 0, 2, 0);
             lblCarCode.Name = "lblCarCode";
-            lblCarCode.Size = new Size(268, 33);
+            lblCarCode.Size = new Size(206, 25);
             lblCarCode.TabIndex = 6;
             lblCarCode.Text = "Biển số xe: 51-9999";
             // 
             // lblSoChuyenDi
             // 
             lblSoChuyenDi.AutoSize = true;
-            lblSoChuyenDi.Font = new Font("SF Pro Display", 15.8571434F, FontStyle.Bold, GraphicsUnit.Point);
+            lblSoChuyenDi.Font = new Font("Microsoft Sans Serif", 15.8571434F, FontStyle.Bold, GraphicsUnit.Point);
             lblSoChuyenDi.ForeColor = Color.FromArgb(241, 111, 51);
-            lblSoChuyenDi.Location = new Point(38, 633);
+            lblSoChuyenDi.Location = new Point(25, 422);
+            lblSoChuyenDi.Margin = new Padding(2, 0, 2, 0);
             lblSoChuyenDi.Name = "lblSoChuyenDi";
-            lblSoChuyenDi.Size = new Size(111, 44);
+            lblSoChuyenDi.Size = new Size(78, 31);
             lblSoChuyenDi.TabIndex = 7;
             lblSoChuyenDi.Text = "2400";
             // 
             // lblLuotDanhGia
             // 
             lblLuotDanhGia.AutoSize = true;
-            lblLuotDanhGia.Font = new Font("SF Pro Display", 15.8571434F, FontStyle.Bold, GraphicsUnit.Point);
+            lblLuotDanhGia.Font = new Font("Microsoft Sans Serif", 15.8571434F, FontStyle.Bold, GraphicsUnit.Point);
             lblLuotDanhGia.ForeColor = Color.FromArgb(241, 111, 51);
-            lblLuotDanhGia.Location = new Point(240, 633);
+            lblLuotDanhGia.Location = new Point(160, 422);
+            lblLuotDanhGia.Margin = new Padding(2, 0, 2, 0);
             lblLuotDanhGia.Name = "lblLuotDanhGia";
-            lblLuotDanhGia.Size = new Size(98, 44);
+            lblLuotDanhGia.Size = new Size(71, 31);
             lblLuotDanhGia.TabIndex = 8;
             lblLuotDanhGia.Text = "4.95";
             lblLuotDanhGia.Click += label2_Click;
@@ -137,55 +145,60 @@
             // lblNam
             // 
             lblNam.AutoSize = true;
-            lblNam.Font = new Font("SF Pro Display", 15.8571434F, FontStyle.Bold, GraphicsUnit.Point);
+            lblNam.Font = new Font("Microsoft Sans Serif", 15.8571434F, FontStyle.Bold, GraphicsUnit.Point);
             lblNam.ForeColor = Color.FromArgb(241, 111, 51);
-            lblNam.Location = new Point(455, 633);
+            lblNam.Location = new Point(303, 422);
+            lblNam.Margin = new Padding(2, 0, 2, 0);
             lblNam.Name = "lblNam";
-            lblNam.Size = new Size(41, 44);
+            lblNam.Size = new Size(30, 31);
             lblNam.TabIndex = 9;
             lblNam.Text = "2";
             // 
             // lbllblChuyenDi
             // 
             lbllblChuyenDi.AutoSize = true;
-            lbllblChuyenDi.Font = new Font("SF Pro Display", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            lbllblChuyenDi.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
             lbllblChuyenDi.ForeColor = Color.FromArgb(241, 111, 51);
-            lbllblChuyenDi.Location = new Point(26, 677);
+            lbllblChuyenDi.Location = new Point(17, 451);
+            lbllblChuyenDi.Margin = new Padding(2, 0, 2, 0);
             lbllblChuyenDi.Name = "lbllblChuyenDi";
-            lbllblChuyenDi.Size = new Size(142, 33);
+            lbllblChuyenDi.Size = new Size(110, 25);
             lbllblChuyenDi.TabIndex = 10;
             lbllblChuyenDi.Text = "Chuyến đi";
             // 
             // lblDanhGia
             // 
             lblDanhGia.AutoSize = true;
-            lblDanhGia.Font = new Font("SF Pro Display", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            lblDanhGia.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
             lblDanhGia.ForeColor = Color.FromArgb(241, 111, 51);
-            lblDanhGia.Location = new Point(230, 677);
+            lblDanhGia.Location = new Point(153, 451);
+            lblDanhGia.Margin = new Padding(2, 0, 2, 0);
             lblDanhGia.Name = "lblDanhGia";
-            lblDanhGia.Size = new Size(125, 33);
+            lblDanhGia.Size = new Size(98, 25);
             lblDanhGia.TabIndex = 11;
             lblDanhGia.Text = "Đánh giá";
             // 
             // lblSoNam
             // 
             lblSoNam.AutoSize = true;
-            lblSoNam.Font = new Font("SF Pro Display", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            lblSoNam.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
             lblSoNam.ForeColor = Color.FromArgb(241, 111, 51);
-            lblSoNam.Location = new Point(444, 677);
+            lblSoNam.Location = new Point(296, 451);
+            lblSoNam.Margin = new Padding(2, 0, 2, 0);
             lblSoNam.Name = "lblSoNam";
-            lblSoNam.Size = new Size(73, 33);
+            lblSoNam.Size = new Size(56, 25);
             lblSoNam.TabIndex = 12;
             lblSoNam.Text = "Năm";
             // 
             // btnLogout
             // 
             btnLogout.BackColor = Color.White;
-            btnLogout.Font = new Font("SF Pro Display", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnLogout.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btnLogout.ForeColor = Color.Red;
-            btnLogout.Location = new Point(26, 1042);
+            btnLogout.Location = new Point(17, 695);
+            btnLogout.Margin = new Padding(2, 2, 2, 2);
             btnLogout.Name = "btnLogout";
-            btnLogout.Size = new Size(510, 80);
+            btnLogout.Size = new Size(340, 53);
             btnLogout.TabIndex = 14;
             btnLogout.Text = "Đăng xuất";
             btnLogout.UseVisualStyleBackColor = false;
@@ -193,17 +206,18 @@
             // indicator
             // 
             indicator.BackgroundImage = Properties.Resources.homeIndicator1;
-            indicator.Location = new Point(-5, 1150);
+            indicator.Location = new Point(-3, 767);
+            indicator.Margin = new Padding(2, 2, 2, 2);
             indicator.Name = "indicator";
-            indicator.Size = new Size(573, 50);
+            indicator.Size = new Size(382, 33);
             indicator.TabIndex = 27;
             // 
             // formInfoAccount
             // 
-            AutoScaleDimensions = new SizeF(12F, 30F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(561, 1202);
+            ClientSize = new Size(374, 703);
             Controls.Add(indicator);
             Controls.Add(btnLogout);
             Controls.Add(lblSoNam);
@@ -216,7 +230,9 @@
             Controls.Add(lblNameVehicle);
             Controls.Add(lblTitle);
             Controls.Add(background);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "formInfoAccount";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "formInfoAccount";
             Load += formInfoAccount_Load;
             background.ResumeLayout(false);

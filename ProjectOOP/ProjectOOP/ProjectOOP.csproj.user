@@ -4,7 +4,16 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="formContinue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="formBalanceOnDay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formFood.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="formHistory.cs">
