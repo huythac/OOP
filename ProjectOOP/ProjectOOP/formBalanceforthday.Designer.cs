@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             btnBack = new Button();
             statusBar = new Panel();
             label1 = new Label();
@@ -36,7 +37,7 @@
             label4 = new Label();
             label5 = new Label();
             label6 = new Label();
-            label7 = new Label();
+            lblTime = new Label();
             label8 = new Label();
             label9 = new Label();
             DividerLine = new Panel();
@@ -47,17 +48,22 @@
             label10 = new Label();
             label11 = new Label();
             lblDay = new Label();
+            indicator = new Panel();
+            timer1 = new System.Windows.Forms.Timer(components);
             SuspendLayout();
             // 
             // btnBack
             // 
             btnBack.BackColor = Color.Transparent;
+            btnBack.FlatStyle = FlatStyle.Flat;
+            btnBack.ForeColor = Color.Transparent;
             btnBack.Image = Properties.Resources.iconArrow;
             btnBack.Location = new Point(29, 85);
             btnBack.Name = "btnBack";
             btnBack.Size = new Size(72, 72);
             btnBack.TabIndex = 17;
             btnBack.UseVisualStyleBackColor = false;
+            btnBack.Click += btnBack_Click;
             // 
             // statusBar
             // 
@@ -133,16 +139,16 @@
             label6.TabIndex = 27;
             label6.Text = "Điểm thưởng";
             // 
-            // label7
+            // lblTime
             // 
-            label7.AutoSize = true;
-            label7.Font = new Font("SF Pro Display", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label7.ForeColor = Color.Black;
-            label7.Location = new Point(442, 377);
-            label7.Name = "label7";
-            label7.Size = new Size(94, 33);
-            label7.TabIndex = 28;
-            label7.Text = "00:00";
+            lblTime.AutoSize = true;
+            lblTime.Font = new Font("SF Pro Display", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            lblTime.ForeColor = Color.Black;
+            lblTime.Location = new Point(449, 377);
+            lblTime.Name = "lblTime";
+            lblTime.Size = new Size(94, 33);
+            lblTime.TabIndex = 28;
+            lblTime.Text = "00:00";
             // 
             // label8
             // 
@@ -168,7 +174,7 @@
             // 
             // DividerLine
             // 
-            DividerLine.BackColor = Color.FromArgb(224, 224, 224);
+            DividerLine.BackColor = Color.WhiteSmoke;
             DividerLine.Location = new Point(-5, 560);
             DividerLine.Name = "DividerLine";
             DividerLine.Size = new Size(573, 12);
@@ -239,7 +245,6 @@
             label11.Size = new Size(161, 33);
             label11.TabIndex = 39;
             label11.Text = "UEH People";
-            label11.Click += label11_Click;
             // 
             // lblDay
             // 
@@ -252,12 +257,27 @@
             lblDay.TabIndex = 40;
             lblDay.Text = "Chủ nhật, 21/04/2024";
             // 
+            // indicator
+            // 
+            indicator.BackgroundImage = Properties.Resources.homeIndicator1;
+            indicator.Location = new Point(-6, 1153);
+            indicator.Name = "indicator";
+            indicator.Size = new Size(573, 50);
+            indicator.TabIndex = 41;
+            // 
+            // timer1
+            // 
+            timer1.Enabled = true;
+            timer1.Interval = 1000;
+            timer1.Tick += timer1_Tick;
+            // 
             // formBalancefortheday
             // 
             AutoScaleDimensions = new SizeF(12F, 30F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(561, 1202);
+            Controls.Add(indicator);
             Controls.Add(lblDay);
             Controls.Add(label11);
             Controls.Add(label10);
@@ -268,7 +288,7 @@
             Controls.Add(DividerLine);
             Controls.Add(label9);
             Controls.Add(label8);
-            Controls.Add(label7);
+            Controls.Add(lblTime);
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(label4);
@@ -279,6 +299,7 @@
             Controls.Add(btnBack);
             Name = "formBalancefortheday";
             Text = "formBalanceOnDay";
+            Load += formBalancefortheday_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -293,7 +314,7 @@
         private Label label4;
         private Label label5;
         private Label label6;
-        private Label label7;
+        private Label lblTime;
         private Label label8;
         private Label label9;
         private Panel DividerLine;
@@ -304,5 +325,7 @@
         private Label label10;
         private Label label11;
         private Label lblDay;
+        private Panel indicator;
+        private System.Windows.Forms.Timer timer1;
     }
 }

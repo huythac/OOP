@@ -15,6 +15,13 @@ namespace ProjectOOP
         public formWallet()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            new formNav().Show();
+            this.Hide();
         }
     }
 }

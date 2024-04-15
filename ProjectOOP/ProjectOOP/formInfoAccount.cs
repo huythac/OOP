@@ -15,6 +15,7 @@ namespace ProjectOOP
         public formInfoAccount()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void lblTitle_Click(object sender, EventArgs e)
@@ -30,6 +31,19 @@ namespace ProjectOOP
         private void formInfoAccount_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            new formNav().Show();
+            this.Hide();
+
+        }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            new formSplash().Show();
+            this.Hide();
         }
     }
 }

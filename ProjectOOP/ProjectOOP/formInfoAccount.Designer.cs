@@ -59,12 +59,14 @@
             // btnBack
             // 
             btnBack.BackColor = Color.Transparent;
+            btnBack.ForeColor = Color.Transparent;
             btnBack.Image = Properties.Resources.iconArrow;
             btnBack.Location = new Point(29, 73);
             btnBack.Name = "btnBack";
             btnBack.Size = new Size(72, 72);
             btnBack.TabIndex = 16;
             btnBack.UseVisualStyleBackColor = false;
+            btnBack.Click += btnBack_Click;
             // 
             // pictureBox1
             // 
@@ -189,6 +191,7 @@
             btnLogout.TabIndex = 14;
             btnLogout.Text = "Đăng xuất";
             btnLogout.UseVisualStyleBackColor = false;
+            btnLogout.Click += btnLogout_Click;
             // 
             // indicator
             // 

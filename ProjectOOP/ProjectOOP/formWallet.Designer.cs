@@ -31,12 +31,12 @@
             statusBar = new Panel();
             label1 = new Label();
             btnBack = new Button();
-            pictureBox1 = new PictureBox();
+            pboxQR = new PictureBox();
             panel1 = new Panel();
             lblBankNumber = new Label();
-            label2 = new Label();
+            lblSoTk = new Label();
             indicator = new Panel();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pboxQR).BeginInit();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -62,21 +62,25 @@
             // btnBack
             // 
             btnBack.BackColor = Color.Transparent;
+            btnBack.FlatStyle = FlatStyle.Flat;
+            btnBack.ForeColor = Color.Transparent;
             btnBack.Image = Properties.Resources.iconArrow;
             btnBack.Location = new Point(29, 85);
             btnBack.Name = "btnBack";
             btnBack.Size = new Size(72, 72);
             btnBack.TabIndex = 20;
             btnBack.UseVisualStyleBackColor = false;
+            btnBack.Click += btnBack_Click;
             // 
-            // pictureBox1
+            // pboxQR
             // 
-            pictureBox1.Image = Properties.Resources.QR;
-            pictureBox1.Location = new Point(65, 271);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(423, 423);
-            pictureBox1.TabIndex = 22;
-            pictureBox1.TabStop = false;
+            pboxQR.BackColor = Color.Transparent;
+            pboxQR.Image = Properties.Resources.QR;
+            pboxQR.Location = new Point(65, 271);
+            pboxQR.Name = "pboxQR";
+            pboxQR.Size = new Size(423, 423);
+            pboxQR.TabIndex = 22;
+            pboxQR.TabStop = false;
             // 
             // panel1
             // 
@@ -98,16 +102,16 @@
             lblBankNumber.TabIndex = 24;
             lblBankNumber.Text = "0123 4567 8910";
             // 
-            // label2
+            // lblSoTk
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("SF Pro Display", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.ForeColor = Color.FromArgb(0, 94, 104);
-            label2.Location = new Point(189, 728);
-            label2.Name = "label2";
-            label2.Size = new Size(167, 33);
-            label2.TabIndex = 25;
-            label2.Text = "Số tài khoản";
+            lblSoTk.AutoSize = true;
+            lblSoTk.Font = new Font("SF Pro Display", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            lblSoTk.ForeColor = Color.FromArgb(0, 94, 104);
+            lblSoTk.Location = new Point(189, 728);
+            lblSoTk.Name = "lblSoTk";
+            lblSoTk.Size = new Size(167, 33);
+            lblSoTk.TabIndex = 25;
+            lblSoTk.Text = "Số tài khoản";
             // 
             // indicator
             // 
@@ -124,16 +128,16 @@
             BackColor = Color.White;
             ClientSize = new Size(561, 1202);
             Controls.Add(indicator);
-            Controls.Add(label2);
+            Controls.Add(lblSoTk);
             Controls.Add(panel1);
-            Controls.Add(pictureBox1);
+            Controls.Add(pboxQR);
             Controls.Add(label1);
             Controls.Add(btnBack);
             Controls.Add(statusBar);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "formWallet";
             Text = "formWallet";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pboxQR).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
@@ -145,10 +149,10 @@
         private Panel statusBar;
         private Label label1;
         private Button btnBack;
-        private PictureBox pictureBox1;
+        private PictureBox pboxQR;
         private Panel panel1;
         private Label lblBankNumber;
-        private Label label2;
+        private Label lblSoTk;
         private Panel indicator;
     }
 }

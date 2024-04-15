@@ -15,6 +15,36 @@ namespace ProjectOOP
         public formNav()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+        }
+
+        private void btnStartNow_Click(object sender, EventArgs e)
+        {
+            new formHome().Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new formBalancefortheday().Show();
+            this.Hide();
+        }
+
+        private void btnThongTinTaiKhoan_Click(object sender, EventArgs e)
+        {
+            new formInfoAccount().Show();
+            this.Hide();
+        }
+
+        private void btnLichSuChuyenDi_Click(object sender, EventArgs e)
+        {
+            new formHistory().Show();
+            this.Hide();
+        }
+
+        private void formNav_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

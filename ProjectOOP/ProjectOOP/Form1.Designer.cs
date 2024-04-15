@@ -33,6 +33,7 @@
             label2 = new Label();
             btnStartNow = new Button();
             homeIndicator = new Panel();
+            btnSignIn = new Button();
             SuspendLayout();
             // 
             // splashImage
@@ -74,12 +75,13 @@
             btnStartNow.FlatStyle = FlatStyle.Flat;
             btnStartNow.Font = new Font("SF Pro Display", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btnStartNow.ForeColor = Color.White;
-            btnStartNow.Location = new Point(25, 1057);
+            btnStartNow.Location = new Point(288, 1057);
             btnStartNow.Name = "btnStartNow";
-            btnStartNow.Size = new Size(510, 80);
+            btnStartNow.Size = new Size(243, 80);
             btnStartNow.TabIndex = 4;
-            btnStartNow.Text = "Bắt đầu ngay!";
+            btnStartNow.Text = "Đăng nhập";
             btnStartNow.UseVisualStyleBackColor = false;
+            btnStartNow.Click += btnStartNow_Click;
             // 
             // homeIndicator
             // 
@@ -90,11 +92,27 @@
             homeIndicator.Size = new Size(581, 48);
             homeIndicator.TabIndex = 5;
             // 
+            // btnSignIn
+            // 
+            btnSignIn.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            btnSignIn.BackColor = Color.FromArgb(230, 239, 240);
+            btnSignIn.FlatStyle = FlatStyle.Flat;
+            btnSignIn.Font = new Font("SF Pro Display", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnSignIn.ForeColor = Color.FromArgb(0, 94, 104);
+            btnSignIn.Location = new Point(25, 1057);
+            btnSignIn.Name = "btnSignIn";
+            btnSignIn.Size = new Size(242, 80);
+            btnSignIn.TabIndex = 6;
+            btnSignIn.Text = "Đăng ký";
+            btnSignIn.UseVisualStyleBackColor = false;
+            btnSignIn.Click += btnSignIn_Click;
+            // 
             // formSplash
             // 
             AutoScaleDimensions = new SizeF(12F, 30F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(561, 1202);
+            Controls.Add(btnSignIn);
             Controls.Add(homeIndicator);
             Controls.Add(btnStartNow);
             Controls.Add(label2);
@@ -103,6 +121,7 @@
             Name = "formSplash";
             Text = "formSplash";
             WindowState = FormWindowState.Minimized;
+            Load += formSplash_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -113,5 +132,6 @@
         private Label label2;
         private Button btnStartNow;
         private Panel homeIndicator;
+        private Button btnSignIn;
     }
 }

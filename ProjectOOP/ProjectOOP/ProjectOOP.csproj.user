@@ -4,7 +4,13 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="formBalanceOnDay.cs">
+    <Compile Update="formBalanceforthday.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formCompleted.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formContinueThing.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="formHistory.cs">
@@ -16,13 +22,19 @@
     <Compile Update="formInfoAccount.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="formMoving.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="formNav.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="formOTP.cs">
+    <Compile Update="formSignIn.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="formStart.cs">
+    <Compile Update="formSignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="formThing.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="formWallet.cs">

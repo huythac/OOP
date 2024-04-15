@@ -28,14 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             panel1 = new Panel();
             label1 = new Label();
-            btnStartNow = new Button();
-            btnOption = new Button();
-            btnMessage = new Button();
+            btnStart = new Button();
             btnMenu = new Button();
-            btnSearch = new Button();
+            pbox = new PictureBox();
+            statusBar = new Panel();
+            timer1 = new System.Windows.Forms.Timer(components);
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pbox).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -57,37 +59,20 @@
             label1.TabIndex = 0;
             label1.Text = "Bạn đang ngoại tuyến";
             // 
-            // btnStartNow
+            // btnStart
             // 
-            btnStartNow.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            btnStartNow.BackColor = Color.FromArgb(0, 94, 104);
-            btnStartNow.FlatStyle = FlatStyle.Flat;
-            btnStartNow.Font = new Font("SF Pro Display", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            btnStartNow.ForeColor = Color.White;
-            btnStartNow.Location = new Point(25, 1015);
-            btnStartNow.Name = "btnStartNow";
-            btnStartNow.Size = new Size(510, 80);
-            btnStartNow.TabIndex = 8;
-            btnStartNow.Text = "Bắt đầu";
-            btnStartNow.UseVisualStyleBackColor = false;
-            // 
-            // btnOption
-            // 
-            btnOption.Image = Properties.Resources.iconOption;
-            btnOption.Location = new Point(25, 924);
-            btnOption.Name = "btnOption";
-            btnOption.Size = new Size(72, 72);
-            btnOption.TabIndex = 9;
-            btnOption.UseVisualStyleBackColor = true;
-            // 
-            // btnMessage
-            // 
-            btnMessage.Image = Properties.Resources.iconMessage;
-            btnMessage.Location = new Point(463, 924);
-            btnMessage.Name = "btnMessage";
-            btnMessage.Size = new Size(72, 72);
-            btnMessage.TabIndex = 10;
-            btnMessage.UseVisualStyleBackColor = true;
+            btnStart.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            btnStart.BackColor = Color.FromArgb(0, 94, 104);
+            btnStart.FlatStyle = FlatStyle.Flat;
+            btnStart.Font = new Font("SF Pro Display", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnStart.ForeColor = Color.White;
+            btnStart.Location = new Point(25, 1015);
+            btnStart.Name = "btnStart";
+            btnStart.Size = new Size(510, 80);
+            btnStart.TabIndex = 8;
+            btnStart.Text = "Bắt đầu";
+            btnStart.UseVisualStyleBackColor = false;
+            btnStart.Click += btnStart_Click;
             // 
             // btnMenu
             // 
@@ -97,32 +82,44 @@
             btnMenu.Size = new Size(72, 72);
             btnMenu.TabIndex = 11;
             btnMenu.UseVisualStyleBackColor = true;
+            btnMenu.Click += btnMenu_Click;
             // 
-            // btnSearch
+            // pbox
             // 
-            btnSearch.Image = Properties.Resources.IconSearch;
-            btnSearch.Location = new Point(463, 88);
-            btnSearch.Name = "btnSearch";
-            btnSearch.Size = new Size(72, 72);
-            btnSearch.TabIndex = 12;
-            btnSearch.UseVisualStyleBackColor = true;
+            pbox.BackColor = Color.Transparent;
+            pbox.Image = Properties.Resources.Navigation_icon___small;
+            pbox.Location = new Point(188, 627);
+            pbox.Name = "pbox";
+            pbox.Size = new Size(100, 100);
+            pbox.TabIndex = 13;
+            pbox.TabStop = false;
+            // 
+            // statusBar
+            // 
+            statusBar.BackColor = Color.Transparent;
+            statusBar.BackgroundImage = Properties.Resources.Status_Bar___iPhone;
+            statusBar.Location = new Point(-5, -1);
+            statusBar.Name = "statusBar";
+            statusBar.Size = new Size(573, 84);
+            statusBar.TabIndex = 14;
             // 
             // formHome
             // 
             AutoScaleDimensions = new SizeF(12F, 30F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.MapHomepage;
+            BackgroundImage = Properties.Resources.MạpUpdate;
             ClientSize = new Size(561, 1202);
-            Controls.Add(btnSearch);
+            Controls.Add(statusBar);
+            Controls.Add(pbox);
             Controls.Add(btnMenu);
-            Controls.Add(btnMessage);
-            Controls.Add(btnOption);
-            Controls.Add(btnStartNow);
+            Controls.Add(btnStart);
             Controls.Add(panel1);
             Name = "formHome";
             Text = "formHome";
+            Load += formHome_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pbox).EndInit();
             ResumeLayout(false);
         }
 
@@ -130,10 +127,10 @@
 
         private Panel panel1;
         private Label label1;
-        private Button btnStartNow;
-        private Button btnOption;
-        private Button btnMessage;
+        private Button btnStart;
         private Button btnMenu;
-        private Button btnSearch;
+        private PictureBox pbox;
+        private Panel statusBar;
+        private System.Windows.Forms.Timer timer1;
     }
 }

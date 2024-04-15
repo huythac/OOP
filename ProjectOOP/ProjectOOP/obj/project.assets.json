@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#\\Develop Desktop Applications\\FinalProject\\ProjectOOP\\ProjectOOP\\ProjectOOP.csproj",
+      "projectUniqueName": "D:\\C#\\Develop Desktop Applications\\FinalProject\\OOP\\ProjectOOP\\ProjectOOP\\ProjectOOP.csproj",
       "projectName": "ProjectOOP",
-      "projectPath": "D:\\C#\\Develop Desktop Applications\\FinalProject\\ProjectOOP\\ProjectOOP\\ProjectOOP.csproj",
+      "projectPath": "D:\\C#\\Develop Desktop Applications\\FinalProject\\OOP\\ProjectOOP\\ProjectOOP\\ProjectOOP.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\C#\\Develop Desktop Applications\\FinalProject\\ProjectOOP\\ProjectOOP\\obj\\",
+      "outputPath": "D:\\C#\\Develop Desktop Applications\\FinalProject\\OOP\\ProjectOOP\\ProjectOOP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
