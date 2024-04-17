@@ -84,7 +84,7 @@
             lblTitle.AutoSize = true;
             lblTitle.Font = new Font("SF Pro Display", 18F, FontStyle.Bold, GraphicsUnit.Point);
             lblTitle.ForeColor = Color.FromArgb(0, 94, 104);
-            lblTitle.Location = new Point(106, 449);
+            lblTitle.Location = new Point(108, 449);
             lblTitle.Name = "lblTitle";
             lblTitle.Size = new Size(330, 50);
             lblTitle.TabIndex = 4;
@@ -116,34 +116,34 @@
             // lblSoChuyenDi
             // 
             lblSoChuyenDi.AutoSize = true;
-            lblSoChuyenDi.Font = new Font("SF Pro Display", 15.8571434F, FontStyle.Bold, GraphicsUnit.Point);
+            lblSoChuyenDi.Font = new Font("SF Pro Display", 12F, FontStyle.Bold, GraphicsUnit.Point);
             lblSoChuyenDi.ForeColor = Color.FromArgb(241, 111, 51);
-            lblSoChuyenDi.Location = new Point(38, 633);
+            lblSoChuyenDi.Location = new Point(493, 625);
             lblSoChuyenDi.Name = "lblSoChuyenDi";
-            lblSoChuyenDi.Size = new Size(111, 44);
+            lblSoChuyenDi.Size = new Size(33, 33);
             lblSoChuyenDi.TabIndex = 7;
-            lblSoChuyenDi.Text = "2400";
+            lblSoChuyenDi.Text = "0";
             // 
             // lblLuotDanhGia
             // 
             lblLuotDanhGia.AutoSize = true;
-            lblLuotDanhGia.Font = new Font("SF Pro Display", 15.8571434F, FontStyle.Bold, GraphicsUnit.Point);
+            lblLuotDanhGia.Font = new Font("SF Pro Display", 12F, FontStyle.Bold, GraphicsUnit.Point);
             lblLuotDanhGia.ForeColor = Color.FromArgb(241, 111, 51);
-            lblLuotDanhGia.Location = new Point(240, 633);
+            lblLuotDanhGia.Location = new Point(469, 677);
             lblLuotDanhGia.Name = "lblLuotDanhGia";
-            lblLuotDanhGia.Size = new Size(98, 44);
+            lblLuotDanhGia.Size = new Size(57, 33);
             lblLuotDanhGia.TabIndex = 8;
-            lblLuotDanhGia.Text = "4.95";
+            lblLuotDanhGia.Text = "5.0";
             lblLuotDanhGia.Click += label2_Click;
             // 
             // lblNam
             // 
             lblNam.AutoSize = true;
-            lblNam.Font = new Font("SF Pro Display", 15.8571434F, FontStyle.Bold, GraphicsUnit.Point);
+            lblNam.Font = new Font("SF Pro Display", 12F, FontStyle.Bold, GraphicsUnit.Point);
             lblNam.ForeColor = Color.FromArgb(241, 111, 51);
-            lblNam.Location = new Point(455, 633);
+            lblNam.Location = new Point(494, 725);
             lblNam.Name = "lblNam";
-            lblNam.Size = new Size(41, 44);
+            lblNam.Size = new Size(32, 33);
             lblNam.TabIndex = 9;
             lblNam.Text = "2";
             // 
@@ -152,7 +152,7 @@
             lbllblChuyenDi.AutoSize = true;
             lbllblChuyenDi.Font = new Font("SF Pro Display", 12F, FontStyle.Bold, GraphicsUnit.Point);
             lbllblChuyenDi.ForeColor = Color.FromArgb(241, 111, 51);
-            lbllblChuyenDi.Location = new Point(26, 677);
+            lbllblChuyenDi.Location = new Point(29, 625);
             lbllblChuyenDi.Name = "lbllblChuyenDi";
             lbllblChuyenDi.Size = new Size(142, 33);
             lbllblChuyenDi.TabIndex = 10;
@@ -163,7 +163,7 @@
             lblDanhGia.AutoSize = true;
             lblDanhGia.Font = new Font("SF Pro Display", 12F, FontStyle.Bold, GraphicsUnit.Point);
             lblDanhGia.ForeColor = Color.FromArgb(241, 111, 51);
-            lblDanhGia.Location = new Point(230, 677);
+            lblDanhGia.Location = new Point(29, 677);
             lblDanhGia.Name = "lblDanhGia";
             lblDanhGia.Size = new Size(125, 33);
             lblDanhGia.TabIndex = 11;
@@ -174,11 +174,11 @@
             lblSoNam.AutoSize = true;
             lblSoNam.Font = new Font("SF Pro Display", 12F, FontStyle.Bold, GraphicsUnit.Point);
             lblSoNam.ForeColor = Color.FromArgb(241, 111, 51);
-            lblSoNam.Location = new Point(444, 677);
+            lblSoNam.Location = new Point(29, 725);
             lblSoNam.Name = "lblSoNam";
-            lblSoNam.Size = new Size(73, 33);
+            lblSoNam.Size = new Size(181, 33);
             lblSoNam.TabIndex = 12;
-            lblSoNam.Text = "Năm";
+            lblSoNam.Text = "Ngày bắt đầu";
             // 
             // btnLogout
             // 

@@ -26,8 +26,9 @@ namespace ProjectOOP
 
         private void button2_Click(object sender, EventArgs e)
         {
-            new formBalancefortheday().Show();
-            this.Hide();
+            Hide();
+            new formBalancefortheday().ShowDialog();
+            Close();
         }
 
         private void btnThongTinTaiKhoan_Click(object sender, EventArgs e)
@@ -45,6 +46,12 @@ namespace ProjectOOP
         private void formNav_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnTaiKhoanThanhToan_Click(object sender, EventArgs e)
+        {
+            new formWallet().Show();
+            this.Hide();
         }
     }
 }

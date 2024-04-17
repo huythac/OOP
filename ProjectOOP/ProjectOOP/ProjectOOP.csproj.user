@@ -1,43 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="Form1.cs">
+    <Compile Update="UI\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="formBalanceforthday.cs">
+    <Compile Update="UI\formBalanceforthday.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="formCompleted.cs">
+    <Compile Update="UI\formCompleted.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="formContinueThing.cs">
+    <Compile Update="UI\formContinueThing.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="formHistory.cs">
+    <Compile Update="UI\formHistory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="formHome.cs">
+    <Compile Update="UI\formHome.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="formInfoAccount.cs">
+    <Compile Update="UI\formInfoAccount.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="formMoving.cs">
+    <Compile Update="UI\formMoving.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="formNav.cs">
+    <Compile Update="UI\formNav.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="formSignIn.cs">
+    <Compile Update="UI\formSignIn.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="formSignUp.cs">
+    <Compile Update="UI\formSignUp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="formThing.cs">
+    <Compile Update="UI\formThing.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="formWallet.cs">
+    <Compile Update="UI\formWallet.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

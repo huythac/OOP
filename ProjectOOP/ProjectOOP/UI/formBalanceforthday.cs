@@ -15,20 +15,23 @@ namespace ProjectOOP
     {
         public formBalancefortheday()
         {
+
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
+            Lock();
 
         }
         private void formBalancefortheday_Load(object sender, EventArgs e)
         {
             PerformToDay();
-            Lock();
         }
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            new formNav().Show();
-            this.Hide();
+            timer1.Stop();
+            Hide();
+            new formNav().ShowDialog();
+            Close();
         }
         private void PerformToDay()
         {
@@ -40,8 +43,8 @@ namespace ProjectOOP
         }
         private void Lock()
         {
-            if (!GlobalData.IsInTrip) return;
             int second = GlobalData.CurrentTripTime;
+            if (!GlobalData.IsInTrip) return;
             lblTime.Text = $"{second / 60:00}:{second % 60:00}";
             GlobalData.CurrentTripTime++;
         }

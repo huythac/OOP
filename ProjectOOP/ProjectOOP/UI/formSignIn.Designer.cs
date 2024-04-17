@@ -79,7 +79,7 @@
             txtPhoneNumber.Name = "txtPhoneNumber";
             txtPhoneNumber.Size = new Size(510, 72);
             txtPhoneNumber.TabIndex = 7;
-            txtPhoneNumber.TextChanged += txtPhoneNumber_TextChanged;
+
             // 
             // txtPassword
             // 
@@ -93,7 +93,7 @@
             txtPassword.TabIndex = 8;
             txtPassword.UseSystemPasswordChar = true;
             txtPassword.UseWaitCursor = true;
-            txtPassword.TextChanged += txtPassword_TextChanged;
+
             // 
             // lblEnterPhone
             // 
@@ -169,7 +169,7 @@
             Controls.Add(statusBar);
             Name = "formSignIn";
             Text = "DangNhap";
-            Load += formSignIn_Load;
+
             ResumeLayout(false);
             PerformLayout();
         }

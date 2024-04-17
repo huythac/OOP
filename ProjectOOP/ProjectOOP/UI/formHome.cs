@@ -12,12 +12,10 @@ namespace ProjectOOP
 {
     public partial class formHome : Form
     {
-        private formBalancefortheday balanceForm; 
         public formHome()
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
-            balanceForm = new formBalancefortheday(); 
         }
 
         private void formHome_Load(object sender, EventArgs e)
@@ -27,11 +25,13 @@ namespace ProjectOOP
 
         private void btnMenu_Click(object sender, EventArgs e)
         {
-            new formNav().Show();
             this.Hide();
+            new formNav().ShowDialog();
+            this.Close();
         }
         private void Lock()
         {
+            if (GlobalData.IsInTrip)
             GlobalData.CurrentTripTime++;
         }
         private void timer1_Tick(object sender, EventArgs e)
@@ -40,9 +40,9 @@ namespace ProjectOOP
         }
         private void btnStart_Click(object sender, EventArgs e)
         {
-            new formPeople().Show();
-            this.Hide();
+            new formMoving().ShowDialog();
+            Hide();
             GlobalData.IsInTrip = true;
         }
-        }
     }
+}

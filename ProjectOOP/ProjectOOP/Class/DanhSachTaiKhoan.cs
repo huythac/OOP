@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -17,7 +16,6 @@ namespace ProjectOOP.Class
                     instance = new DanhSachTaiKhoan();
                 return instance;
             }
-            set => instance = value;
         }
 
         List<ThongTinTaiKhoan> listTaiKhoan;
@@ -28,12 +26,12 @@ namespace ProjectOOP.Class
             set { listTaiKhoan = value; }
         }
 
-        // Khởi tạo một danh sách tài khoản
         private DanhSachTaiKhoan()
         {
             listTaiKhoan = new List<ThongTinTaiKhoan>();
-            listTaiKhoan.Add(new ThongTinTaiKhoan("0948744101", "5678"));
-            listTaiKhoan.Add(new ThongTinTaiKhoan("0948744102", "8910"));
+            listTaiKhoan.Add(new ThongTinTaiKhoan("Vũ Trọng Tiến Phi", "0948744101", "5678"));
+            listTaiKhoan.Add(new ThongTinTaiKhoan("Thạch Quốc Huy", "0912439709", "0109"));
+            listTaiKhoan.Add(new ThongTinTaiKhoan("Phạm Thành Đạt", "0948744100", "1234"));
         }
     }
 }

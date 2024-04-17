@@ -17,7 +17,6 @@ namespace ProjectOOP.Class
                     return false;
                 }
             }
-
             DanhSachTaiKhoan.Instance.ListTaiKhoan.Add(newAccount);
             AccountCreated?.Invoke(newAccount);
             return true;
@@ -33,19 +32,19 @@ namespace ProjectOOP.Class
             return selectedServices;
         }
 
-        public void SignUp( TextBox txtSoDienThoai, TextBox txtMatKhau, TextBox txtXacNhanMatKhau, TextBox txtHo, TextBox txtTen, CheckedListBox checkedListBoxDichVu, Form form)
+        public void SignUp(TextBox txtSoDienThoai, TextBox txtMatKhau, TextBox txtXacNhanMatKhau, TextBox txtHo, TextBox txtTen, CheckedListBox checkedListBoxDichVu, Form form)
         {
-           
             if (txtMatKhau.Text != txtXacNhanMatKhau.Text)
             {
                 MessageBox.Show("Mật khẩu và xác nhận mật khẩu không trùng khớp!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            ThongTinTaiKhoan newAccount = new ThongTinTaiKhoan(txtSoDienThoai.Text, txtMatKhau.Text);
-            newAccount.FullName = txtHo.Text + " " + txtTen.Text;
+            // Concatenate Ho and Ten to form FullName
+            string fullName = $"{txtHo.Text} {txtTen.Text}";
 
-            // Sử dụng phương thức GetSelectedServices
+            ThongTinTaiKhoan newAccount = new ThongTinTaiKhoan(null, txtSoDienThoai.Text, txtMatKhau.Text);
+            newAccount.FullName = fullName;
             newAccount.SelectedServices = GetSelectedServices(checkedListBoxDichVu);
 
             bool accountCreated = AddNewAccount(newAccount);
@@ -53,8 +52,6 @@ namespace ProjectOOP.Class
             if (accountCreated)
             {
                 MessageBox.Show("Tài khoản đã được tạo thành công!", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                // Hiển thị form đăng nhập
                 formSignIn signInForm = new formSignIn();
                 signInForm.Show();
                 form.Hide();
@@ -63,6 +60,11 @@ namespace ProjectOOP.Class
             {
                 MessageBox.Show("Tạo tài khoản thất bại!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        internal void SignUp(TextBox txtSoDienThoai, TextBox txtMatKhau, TextBox txtXacNhanMatKhau, TextBox txtHo, TextBox txtTen, formSignUp g)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -103,6 +103,11 @@
             statusBar.Size = new Size(573, 84);
             statusBar.TabIndex = 14;
             // 
+            // timer1
+            // 
+            timer1.Enabled = true;
+            timer1.Interval = 1000;
+            // 
             // formHome
             // 
             AutoScaleDimensions = new SizeF(12F, 30F);

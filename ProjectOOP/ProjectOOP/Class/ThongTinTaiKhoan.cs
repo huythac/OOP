@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,8 +12,9 @@ namespace ProjectOOP.Class
         public string Password { get; set; }
         public List<string> SelectedServices { get; set; }
 
-        public ThongTinTaiKhoan(string phoneNumber, string password)
+        public ThongTinTaiKhoan(string fullName, string phoneNumber, string password)
         {
+
             PhoneNumber = phoneNumber;
             Password = password;
             SelectedServices = new List<string>();

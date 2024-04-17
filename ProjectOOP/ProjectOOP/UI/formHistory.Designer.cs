@@ -28,14 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            ListViewGroup listViewGroup1 = new ListViewGroup("ListViewGroup", HorizontalAlignment.Left);
-            ListViewItem listViewItem1 = new ListViewItem(new string[] { "" }, -1, Color.Empty, Color.Empty, new Font("SF Pro Display", 11.1428576F, FontStyle.Bold, GraphicsUnit.Point));
+            ListViewGroup listViewGroup2 = new ListViewGroup("ListViewGroup", HorizontalAlignment.Left);
+            ListViewItem listViewItem2 = new ListViewItem(new string[] { "" }, -1, Color.Empty, Color.Empty, new Font("SF Pro Display", 11.1428576F, FontStyle.Bold, GraphicsUnit.Point));
             indicator = new Panel();
             statusBar = new Panel();
             btnBack = new Button();
             pictureBox1 = new PictureBox();
             panel1 = new Panel();
-            txtHo = new TextBox();
+            txtId = new TextBox();
             btnSearch = new Button();
             listView1 = new ListView();
             columnHeader1 = new ColumnHeader();
@@ -86,24 +86,25 @@
             // panel1
             // 
             panel1.BackColor = Color.WhiteSmoke;
-            panel1.Controls.Add(txtHo);
+            panel1.Controls.Add(txtId);
             panel1.Controls.Add(pictureBox1);
             panel1.Location = new Point(29, 251);
             panel1.Name = "panel1";
             panel1.Size = new Size(369, 64);
             panel1.TabIndex = 31;
             // 
-            // txtHo
+            // txtId
             // 
-            txtHo.BackColor = Color.WhiteSmoke;
-            txtHo.BorderStyle = BorderStyle.None;
-            txtHo.Font = new Font("SF Pro Display", 11.1428576F, FontStyle.Regular, GraphicsUnit.Point);
-            txtHo.Location = new Point(66, 16);
-            txtHo.Multiline = true;
-            txtHo.Name = "txtHo";
-            txtHo.Size = new Size(296, 36);
-            txtHo.TabIndex = 32;
-            txtHo.Text = "   Nhập ID đơn hàng";
+            txtId.BackColor = Color.WhiteSmoke;
+            txtId.BorderStyle = BorderStyle.None;
+            txtId.Font = new Font("SF Pro Display", 11.1428576F, FontStyle.Regular, GraphicsUnit.Point);
+            txtId.Location = new Point(66, 16);
+            txtId.Multiline = true;
+            txtId.Name = "txtId";
+            txtId.Size = new Size(296, 36);
+            txtId.TabIndex = 32;
+            txtId.Text = "   Nhập ID đơn hàng";
+            txtId.MouseClick += txtId_MouseClick;
             // 
             // btnSearch
             // 
@@ -122,10 +123,10 @@
             // listView1
             // 
             listView1.Columns.AddRange(new ColumnHeader[] { columnHeader1 });
-            listViewGroup1.Header = "ListViewGroup";
-            listViewGroup1.Name = "listViewGroup1";
-            listView1.Groups.AddRange(new ListViewGroup[] { listViewGroup1 });
-            listView1.Items.AddRange(new ListViewItem[] { listViewItem1 });
+            listViewGroup2.Header = "ListViewGroup";
+            listViewGroup2.Name = "listViewGroup1";
+            listView1.Groups.AddRange(new ListViewGroup[] { listViewGroup2 });
+            listView1.Items.AddRange(new ListViewItem[] { listViewItem2 });
             listView1.Location = new Point(29, 335);
             listView1.Name = "listView1";
             listView1.Size = new Size(508, 782);
@@ -178,7 +179,7 @@
         private PictureBox pictureBox1;
         private Panel panel1;
         private Button btnSearch;
-        private TextBox txtHo;
+        private TextBox txtId;
         private ListView listView1;
         private ColumnHeader columnHeader1;
         private Label label1;

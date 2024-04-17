@@ -109,6 +109,7 @@
             btnTaiKhoanThanhToan.TabIndex = 12;
             btnTaiKhoanThanhToan.Text = "Tài khoản thanh toán";
             btnTaiKhoanThanhToan.UseVisualStyleBackColor = false;
+            btnTaiKhoanThanhToan.Click += btnTaiKhoanThanhToan_Click;
             // 
             // btnThuNhapSoDu
             // 
@@ -178,9 +179,9 @@
             lblRating.ForeColor = Color.FromArgb(64, 64, 64);
             lblRating.Location = new Point(177, 132);
             lblRating.Name = "lblRating";
-            lblRating.Size = new Size(71, 32);
+            lblRating.Size = new Size(54, 32);
             lblRating.TabIndex = 5;
-            lblRating.Text = "4.95";
+            lblRating.Text = "5.0";
             // 
             // lblName
             // 
@@ -189,9 +190,9 @@
             lblName.ForeColor = Color.FromArgb(241, 111, 51);
             lblName.Location = new Point(143, 86);
             lblName.Name = "lblName";
-            lblName.Size = new Size(171, 39);
+            lblName.Size = new Size(263, 39);
             lblName.TabIndex = 4;
-            lblName.Text = "Thành Đạt";
+            lblName.Text = "Phạm Thành Đạt";
             // 
             // formNav
             // 

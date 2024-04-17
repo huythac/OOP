@@ -28,5 +28,10 @@ namespace ProjectOOP
             new formNav().Show();
             this.Hide();
         }
+
+        private void txtId_MouseClick(object sender, MouseEventArgs e)
+        {
+            txtId.Clear();
+        }
     }
 }
