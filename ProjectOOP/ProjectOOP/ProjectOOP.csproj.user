@@ -1,40 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="Form1.cs">
+    <Compile Update="GUI\formContinue.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="formContinue.cs">
+    <Compile Update="GUI\formDetail.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="formDetail.cs">
+    <Compile Update="GUI\formBalanceOnDay.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="formBalanceOnDay.cs">
+    <Compile Update="GUI\formFood.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="formFood.cs">
+    <Compile Update="GUI\formHistory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="formHistory.cs">
+    <Compile Update="GUI\formHome.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="formHome.cs">
+    <Compile Update="GUI\formInfoAccount.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="formInfoAccount.cs">
+    <Compile Update="GUI\formNav.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="formNav.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="formOTP.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="formStart.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="formWallet.cs">
+    <Compile Update="GUI\formStart.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
