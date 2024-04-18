@@ -29,7 +29,7 @@ namespace ProjectOOP.Class
         private DanhSachTaiKhoan()
         {
             listTaiKhoan = new List<ThongTinTaiKhoan>();
-            listTaiKhoan.Add(new ThongTinTaiKhoan("Vũ Trọng Tiến Phi", "0948744101", "5678"));
+            listTaiKhoan.Add(new ThongTinTaiKhoan("Vũ Trọng Tiến Phi", "0357245634", "1234"));
             listTaiKhoan.Add(new ThongTinTaiKhoan("Thạch Quốc Huy", "0912439709", "0109"));
             listTaiKhoan.Add(new ThongTinTaiKhoan("Phạm Thành Đạt", "0948744100", "1234"));
         }

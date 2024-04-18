@@ -221,6 +221,7 @@
             Controls.Add(background);
             Name = "formInfoAccount";
             Text = "formInfoAccount";
+            WindowState = FormWindowState.Minimized;
             Load += formInfoAccount_Load;
             background.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
