@@ -12,7 +12,7 @@ public class Data
     private string jsonT3;
     private string jsonT4;
     private string jsonOrder;
-    string compileInfoPath = @"C:\Users\ACER\Downloads\json.txt"; // Đường dẫn tới tệp tin lưu thông tin biên dịch
+    string compileInfoPath = @"FilePathProducts.txt"; // Đường dẫn tới tệp tin lưu thông tin biên dịch
     public Data()
     {
         DateTime currentTime = DateTime.Today;

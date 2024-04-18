@@ -3,8 +3,8 @@ using System.Text.Json;
 
 public class Manager
 {
-    string fileProductOrder = @"C:\Users\ACER\Downloads\Order.txt"; // Lịch sử các đơn đã hoàn thành
-    string compileInfoPath = @"C:\Users\ACER\Downloads\json.txt"; // Đường dẫn tới tệp tin lưu thông tin biên dịch
+    string fileProductOrder = @"FilePathOrder.txt"; // Lịch sử các đơn đã hoàn thành
+    string compileInfoPath = @"FilePathProducts.txt"; // Đường dẫn tới tệp tin lưu thông tin biên dịch
     private List<Products> globalProducts;
     public int index = new Random().Next(0, 8);
 

@@ -21,7 +21,7 @@ namespace ProjectOOP
         public formFood()
         {
             InitializeComponent();
-
+            timer1.Start();
         }
         private void btnTuChoi_Click(object sender, EventArgs e)
         {
@@ -32,9 +32,9 @@ namespace ProjectOOP
 
         private void btnNhan_Click(object sender, EventArgs e)
         {
-            if(lstProducts.SelectedItems.Count == 0)
+            if (lstProducts.SelectedItems.Count == 0)
             {
-                MessageBox.Show("Vui lòng chọn đơn muốn nhận","Thông báo",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                MessageBox.Show("Vui lòng chọn đơn muốn nhận", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
@@ -81,7 +81,7 @@ namespace ProjectOOP
 
         private void lstProducts_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if(lstProducts.SelectedItems.Count > 0)
+            if (lstProducts.SelectedItems.Count > 0)
             {
                 ListViewItem lst = lstProducts.SelectedItems[0];
                 string title = lst.SubItems[1].Text;
@@ -117,6 +117,11 @@ namespace ProjectOOP
                         break;
                 }
             }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label2.Text=DateTime.Now.ToLongDateString()+"\n"+DateTime.Now.ToLongTimeString();
         }
     }
 }

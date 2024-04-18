@@ -19,9 +19,6 @@
     <Compile Update="GUI\formHome.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="GUI\formInfoAccount.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="GUI\formNav.cs">
       <SubType>Form</SubType>
     </Compile>

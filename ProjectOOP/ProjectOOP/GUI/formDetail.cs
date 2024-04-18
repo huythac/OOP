@@ -50,7 +50,7 @@ namespace ProjectOOP
             // 
             // lstHangHoa
             // 
-            lstHangHoa.Columns.AddRange(new ColumnHeader[] { clnTenHang, clnChiTiet, clnTong });
+            lstHangHoa.Columns.AddRange(new ColumnHeader[] { clnTenHang, clnChiTiet, clnThanhTien });
             lstHangHoa.Location = new Point(3, 7);
             lstHangHoa.Name = "lstHangHoa";
             lstHangHoa.Size = new Size(361, 193);

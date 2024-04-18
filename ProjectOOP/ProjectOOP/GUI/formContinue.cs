@@ -35,7 +35,7 @@ namespace ProjectOOP
 
         private void btnHoanTat_Click(object sender, EventArgs e)
         {
-            data.WriteCompileInfo(@"C:\Users\ACER\Downloads\Order.txt", product);
+            data.WriteCompileInfo(@"FilePathOrder.txt", product);
             new formNav().ShowDialog();
         }
     }

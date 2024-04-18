@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             btnTuChoi = new Button();
             btnNhan = new Button();
             panel1 = new Panel();
@@ -40,6 +41,8 @@
             clnSTT = new ColumnHeader();
             clnName = new ColumnHeader();
             clnTypeProduct = new ColumnHeader();
+            label2 = new Label();
+            timer1 = new System.Windows.Forms.Timer(components);
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -139,9 +142,9 @@
             lstProducts.Columns.AddRange(new ColumnHeader[] { clnSTT, clnName, clnTypeProduct });
             lstProducts.FullRowSelect = true;
             lstProducts.GridLines = true;
-            lstProducts.Location = new Point(7, 9);
+            lstProducts.Location = new Point(7, 78);
             lstProducts.Name = "lstProducts";
-            lstProducts.Size = new Size(368, 338);
+            lstProducts.Size = new Size(368, 269);
             lstProducts.TabIndex = 4;
             lstProducts.UseCompatibleStateImageBehavior = false;
             lstProducts.View = View.Details;
@@ -162,11 +165,24 @@
             clnTypeProduct.Text = "Loại Đơn";
             clnTypeProduct.Width = 50;
             // 
+            // label2
+            // 
+            label2.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Location = new Point(12, 11);
+            label2.Name = "label2";
+            label2.Size = new Size(356, 64);
+            label2.TabIndex = 5;
+            // 
+            // timer1
+            // 
+            timer1.Tick += timer1_Tick;
+            // 
             // formFood
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(380, 740);
+            Controls.Add(label2);
             Controls.Add(lstProducts);
             Controls.Add(panel1);
             Name = "formFood";
@@ -192,5 +208,7 @@
         private ColumnHeader clnSTT;
         private ColumnHeader clnName;
         private ColumnHeader clnTypeProduct;
+        private Label label2;
+        private System.Windows.Forms.Timer timer1;
     }
 }

@@ -36,7 +36,7 @@
             lstHangHoa = new ListView();
             clnTenHang = new ColumnHeader();
             clnChiTiet = new ColumnHeader();
-            clnTong = new ColumnHeader();
+            clnThanhTien = new ColumnHeader();
             label1 = new Label();
             label3 = new Label();
             label4 = new Label();
@@ -112,7 +112,7 @@
             // 
             // clnTong
             // 
-            clnTong.Text = "Tổng";
+            clnThanhTien.Text = "Thành Tiền";
             // 
             // label1
             // 
@@ -175,6 +175,6 @@
         private ListView lstHangHoa;
         private ColumnHeader clnTenHang;
         private ColumnHeader clnChiTiet;
-        private ColumnHeader clnTong;
+        private ColumnHeader clnThanhTien;
     }
 }
