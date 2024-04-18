@@ -14,7 +14,7 @@ namespace ProjectOOP
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new formSplash());
-            FakeDataAccount.CreateDataAccount(FakeDataAccount.filePathAccount);
+          //  FakeDataAccount.CreateDataAccount(FakeDataAccount.filePathAccount);
         }
     }
 }
