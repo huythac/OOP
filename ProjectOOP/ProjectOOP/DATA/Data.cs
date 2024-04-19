@@ -1,4 +1,5 @@
 ﻿using ProjectOOP.Class;
+using System.Text;
 using System.Text.Json;
 
 public class Data
@@ -12,7 +13,8 @@ public class Data
     private string jsonT3;
     private string jsonT4;
     private string jsonOrder;
-    string compileInfoPath = @"FilePathProducts.txt"; // Đường dẫn tới tệp tin lưu thông tin biên dịch
+    string compileInfoPath = @"FilePathProducts.txt";
+    string fileOrder = @"FilePathOrder.txt";// Đường dẫn tới tệp tin lưu thông tin biên dịch
     public Data()
     {
         DateTime currentTime = DateTime.Today;
@@ -63,12 +65,40 @@ public class Data
             sw.Flush();
         }
     }
-    public Products Deserialize(int typeProduct)
+    public Products Deserialize(int typeProduct,string file)
     {
-        string jsonString = ReadSpecificLine(compileInfoPath, typeProduct);
+        string jsonString = ReadSpecificLine(file, typeProduct);
         Products deserializeProduct = JsonSerializer.Deserialize<Products>(jsonString);
 
         return deserializeProduct;
+    }
+    public int ReadFile(string filePath)//Đếm số dòng trong file
+    {
+        int semicolonCount = 0;
+        try
+        {
+            // Mở file sử dụng FileStream
+            using (FileStream fs = new FileStream(filePath, FileMode.Open, FileAccess.Read))
+            {
+                // Đếm số dấu ';' trong file
+
+                int currentByte;
+                while ((currentByte = fs.ReadByte()) != -1)
+                {
+                    // Chuyển đổi byte sang ký tự
+                    char currentChar = (char)currentByte;
+                    if (currentChar == ';')
+                    {
+                        semicolonCount++;
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+
+        }
+        return semicolonCount;
     }
 
     private string ReadSpecificLine(string filePath,int specificLine)

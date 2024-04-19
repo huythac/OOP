@@ -18,6 +18,8 @@ namespace ProjectOOP
         Data data = new Data();
         Products products = new Products();
         Manager manager = new Manager();
+        string compileInfoPath = @"FilePathProducts.txt";
+        string fileOrder = @"FilePathOrder.txt";// Đường dẫn tới tệp tin lưu thông tin biên dịch
         public formFood()
         {
             InitializeComponent();
@@ -39,14 +41,14 @@ namespace ProjectOOP
             else
             {
                 Hide();
-                new formContinue(products).ShowDialog();
+                new formMoving(products).ShowDialog();
                 Close();
             }
 
         }
         private void Location(int toaDo)
         {
-            products = data.Deserialize(toaDo);
+            products = data.Deserialize(toaDo, compileInfoPath);
             lblLocationFrom.Text = products.LocationFrom;
             lblLocationTo.Text = products.LocationTo;
         }

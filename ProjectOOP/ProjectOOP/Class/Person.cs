@@ -2,10 +2,11 @@
 {
     public abstract class Person
     {
-        public abstract string Name { get; set; }
-        public abstract string Account { get; set; }
+        public abstract string FullName { get; set; }
+        public abstract string PhoneNumber { get; set; }
         public abstract string Password { get; set; }
 
-        public abstract string ShowString();
+        public abstract List<string> SelectedServices { get; set; }
+
     }
 }
