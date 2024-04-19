@@ -15,7 +15,7 @@ namespace ProjectOOP
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new formHistory());
+            Application.Run(new formSplash());
             //Data data = new Data();
             //data.Serialize();
         }

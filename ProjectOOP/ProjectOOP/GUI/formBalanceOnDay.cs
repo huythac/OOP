@@ -1,4 +1,5 @@
 ﻿using ProjectOOP.Class;
+using ProjectOOP.DATA;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -30,7 +31,7 @@ namespace ProjectOOP
             PerformToDay();
             LoadHistory(fileOrder);
         }
-        public void LoadHistory(string file)
+        public void LoadHistory(string fileOrder)
         {
             int x = data.ReadFile(fileOrder);
             lblAllOrder.Text = x.ToString();

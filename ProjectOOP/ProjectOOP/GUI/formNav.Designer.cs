@@ -131,7 +131,7 @@
             btnThuNhapSoDu.TabIndex = 11;
             btnThuNhapSoDu.Text = "Số dư và thu nhập";
             btnThuNhapSoDu.UseVisualStyleBackColor = false;
-            btnThuNhapSoDu.Click += button2_Click;
+            btnThuNhapSoDu.Click += btnThuNhapSoDu_Click;
             // 
             // btnLichSuChuyenDi
             // 

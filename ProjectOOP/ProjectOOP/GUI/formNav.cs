@@ -20,11 +20,13 @@ namespace ProjectOOP
 
         private void btnStartNow_Click(object sender, EventArgs e)
         {
-            new formHome().Show();
+
             this.Hide();
+            new formHome().Show();
+            Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnThuNhapSoDu_Click(object sender, EventArgs e)
         {
             Hide();
             new formBalancefortheday().ShowDialog();
@@ -33,14 +35,18 @@ namespace ProjectOOP
 
         private void btnThongTinTaiKhoan_Click(object sender, EventArgs e)
         {
-            new formInfoAccount().Show();
+
             this.Hide();
+            new formInfoAccount().Show();
+            Close();
         }
 
         private void btnLichSuChuyenDi_Click(object sender, EventArgs e)
         {
-            new formHistory().Show();
+
             this.Hide();
+            new formHistory().Show();
+            Close();
         }
 
         private void formNav_Load(object sender, EventArgs e)
@@ -50,7 +56,9 @@ namespace ProjectOOP
 
         private void btnTaiKhoanThanhToan_Click(object sender, EventArgs e)
         {
-
+            Hide();
+            new formWallet().ShowDialog();
+            Close();
         }
 
         private void button1_Click(object sender, EventArgs e)

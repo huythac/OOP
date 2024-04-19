@@ -32,3 +32,4 @@ D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOO
 D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.genruntimeconfig.cache
 D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ref\ProjectOOP.dll
 D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.formBalancefortheday.resources
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.formWallet.resources

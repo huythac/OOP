@@ -1,4 +1,4 @@
-﻿using ProjectOOP.Class;
+﻿using ProjectOOP.DATA;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
