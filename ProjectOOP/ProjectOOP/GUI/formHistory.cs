@@ -19,9 +19,8 @@ namespace ProjectOOP
         public formHistory()
         {
             InitializeComponent();
-            this.StartPosition = FormStartPosition.CenterScreen;
+            timer1.Start();
         }
-
         private void formHistory_Load(object sender, EventArgs e)
         {
             LoadOrder(fileOrder);
@@ -36,13 +35,13 @@ namespace ProjectOOP
                 Panel panel2 = new Panel();
                 Label lblLocationFrom = new Label();
                 Label lblLocationTo = new Label();
-                Button btnChiTiet = new Button();
+                Label lblPrice = new Label();
                 Button lblTypeProduct = new Button();
                 // 
                 // panel2
                 // 
                 panel2.Controls.Add(lblTypeProduct);
-                panel2.Controls.Add(btnChiTiet);
+                panel2.Controls.Add(lblPrice);
                 panel2.Controls.Add(lblLocationTo);
                 panel2.Controls.Add(lblTypeProduct);
                 panel2.Controls.Add(lblLocationFrom);
@@ -79,14 +78,15 @@ namespace ProjectOOP
                 lblLocationTo.TabIndex = 2;
                 lblLocationTo.Text = pr.LocationTo;
                 //
-                // button 1
+                // lblPrice
                 //
-                btnChiTiet.Location = new Point(210, 144);
-                btnChiTiet.Name = "button1";
-                btnChiTiet.Size = new Size(119, 29);
-                btnChiTiet.TabIndex = 3;
-                btnChiTiet.Text = "Chi Tiết";
-                btnChiTiet.UseVisualStyleBackColor = true;
+                lblPrice.BackColor = Color.Silver;
+                lblPrice.Location = new Point(140, 144);
+                lblPrice.Name = "lblPrice";
+                lblPrice.Size = new Size(200, 29);
+                lblPrice.TabIndex = 3;
+                lblPrice.Text = "Thu Nhập:" + (pr.Price * 0.8).ToString() + ",000đ";
+                lblPrice.Font = new Font("SF Pro Display", 12F, FontStyle.Bold, GraphicsUnit.Point);
                 // 
                 // flowLayoutPanel1
                 // 
@@ -113,13 +113,13 @@ namespace ProjectOOP
             Panel panel2 = new Panel();
             Label lblLocationFrom = new Label();
             Label lblLocationTo = new Label();
-            Button btnChiTiet = new Button();
+            Label lblPrice = new Label();
             Button lblTypeProduct = new Button();
             // 
             // panel2
             // 
             panel2.Controls.Add(lblTypeProduct);
-            panel2.Controls.Add(btnChiTiet);
+            panel2.Controls.Add(lblPrice);
             panel2.Controls.Add(lblLocationTo);
             panel2.Controls.Add(lblTypeProduct);
             panel2.Controls.Add(lblLocationFrom);
@@ -156,14 +156,15 @@ namespace ProjectOOP
             lblLocationTo.TabIndex = 2;
             lblLocationTo.Text = pr.LocationTo;
             //
-            // button 1
+            // lblPrice
             //
-            btnChiTiet.Location = new Point(210, 144);
-            btnChiTiet.Name = "button1";
-            btnChiTiet.Size = new Size(119, 29);
-            btnChiTiet.TabIndex = 3;
-            btnChiTiet.Text = "Chi Tiết";
-            btnChiTiet.UseVisualStyleBackColor = true;
+            lblPrice.BackColor = Color.Silver;
+            lblPrice.Location = new Point(140, 144);
+            lblPrice.Name = "lblPrice";
+            lblPrice.Size = new Size(200, 29);
+            lblPrice.TabIndex = 3;
+            lblPrice.Text = "Thu Nhập:" + (pr.Price * 0.8).ToString() + ",000đ";
+            lblPrice.Font = new Font("SF Pro Display", 12F, FontStyle.Bold, GraphicsUnit.Point);
             // 
             // flowLayoutPanel1
             // 
@@ -210,6 +211,11 @@ namespace ProjectOOP
                     }
                 }
             }
+        }
+
+        private void timer1_Tick_1(object sender, EventArgs e)
+        {
+            lblTime.Text = DateTime.Now.ToLongDateString() + "\n" + DateTime.Now.ToLongTimeString();
         }
     }
 }

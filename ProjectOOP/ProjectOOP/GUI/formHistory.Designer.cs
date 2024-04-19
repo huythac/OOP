@@ -28,12 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             indicator = new Panel();
-            statusBar = new Panel();
             btnBack = new Button();
             label1 = new Label();
             comboBox1 = new ComboBox();
             flowLayoutPanel1 = new FlowLayoutPanel();
+            timer1 = new System.Windows.Forms.Timer(components);
+            lblTime = new Label();
             SuspendLayout();
             // 
             // indicator
@@ -45,21 +47,13 @@
             indicator.Size = new Size(382, 33);
             indicator.TabIndex = 28;
             // 
-            // statusBar
-            // 
-            statusBar.Location = new Point(0, 0);
-            statusBar.Margin = new Padding(2);
-            statusBar.Name = "statusBar";
-            statusBar.Size = new Size(382, 56);
-            statusBar.TabIndex = 20;
-            // 
             // btnBack
             // 
             btnBack.BackColor = Color.Transparent;
             btnBack.FlatStyle = FlatStyle.Flat;
             btnBack.ForeColor = Color.Transparent;
             btnBack.Image = Properties.Resources.iconArrow;
-            btnBack.Location = new Point(19, 57);
+            btnBack.Location = new Point(19, 71);
             btnBack.Margin = new Padding(2);
             btnBack.Name = "btnBack";
             btnBack.Size = new Size(48, 48);
@@ -98,20 +92,33 @@
             flowLayoutPanel1.Size = new Size(374, 488);
             flowLayoutPanel1.TabIndex = 35;
             // 
+            // timer1
+            // 
+            timer1.Tick += timer1_Tick_1;
+            // 
+            // lblTime
+            // 
+            lblTime.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            lblTime.Location = new Point(1, 3);
+            lblTime.Name = "lblTime";
+            lblTime.Size = new Size(373, 76);
+            lblTime.TabIndex = 36;
+            // 
             // formHistory
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(374, 703);
+            Controls.Add(lblTime);
             Controls.Add(flowLayoutPanel1);
             Controls.Add(comboBox1);
             Controls.Add(label1);
             Controls.Add(btnBack);
-            Controls.Add(statusBar);
             Controls.Add(indicator);
             Margin = new Padding(2);
             Name = "formHistory";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "formHistory";
             Load += formHistory_Load;
             ResumeLayout(false);
@@ -121,10 +128,11 @@
         #endregion
 
         private Panel indicator;
-        private Panel statusBar;
         private Button btnBack;
         private Label label1;
         private ComboBox comboBox1;
         private FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Timer timer1;
+        private Label lblTime;
     }
 }
