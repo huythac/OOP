@@ -40,6 +40,7 @@
             pictureBox1 = new PictureBox();
             lblRating = new Label();
             lblName = new Label();
+            btnTroVe = new Button();
             panel1.SuspendLayout();
             nav.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -50,24 +51,27 @@
             // 
             panel1.BackColor = Color.White;
             panel1.Controls.Add(label1);
-            panel1.Location = new Point(-6, 1116);
+            panel1.Location = new Point(-4, 744);
+            panel1.Margin = new Padding(2, 2, 2, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(570, 92);
+            panel1.Size = new Size(380, 61);
             panel1.TabIndex = 1;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("SF Pro Display", 11.1428576F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(143, 26);
+            label1.Font = new Font("Microsoft Sans Serif", 11.1428576F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(95, 17);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(273, 32);
+            label1.Size = new Size(215, 24);
             label1.TabIndex = 0;
             label1.Text = "Bạn đang ngoại tuyến";
             // 
             // nav
             // 
             nav.BackColor = Color.White;
+            nav.Controls.Add(btnTroVe);
             nav.Controls.Add(btnStartNow);
             nav.Controls.Add(btnTaiKhoanThanhToan);
             nav.Controls.Add(btnThuNhapSoDu);
@@ -77,9 +81,10 @@
             nav.Controls.Add(pictureBox1);
             nav.Controls.Add(lblRating);
             nav.Controls.Add(lblName);
-            nav.Location = new Point(-6, 2);
+            nav.Location = new Point(-4, 1);
+            nav.Margin = new Padding(2, 2, 2, 2);
             nav.Name = "nav";
-            nav.Size = new Size(447, 1203);
+            nav.Size = new Size(298, 802);
             nav.TabIndex = 14;
             // 
             // btnStartNow
@@ -87,11 +92,12 @@
             btnStartNow.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             btnStartNow.BackColor = Color.FromArgb(230, 239, 240);
             btnStartNow.FlatStyle = FlatStyle.Flat;
-            btnStartNow.Font = new Font("SF Pro Display", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnStartNow.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btnStartNow.ForeColor = Color.FromArgb(0, 94, 104);
-            btnStartNow.Location = new Point(44, 1076);
+            btnStartNow.Location = new Point(29, 717);
+            btnStartNow.Margin = new Padding(2, 2, 2, 2);
             btnStartNow.Name = "btnStartNow";
-            btnStartNow.Size = new Size(359, 80);
+            btnStartNow.Size = new Size(239, 53);
             btnStartNow.TabIndex = 14;
             btnStartNow.Text = "Quay lại";
             btnStartNow.UseVisualStyleBackColor = false;
@@ -100,12 +106,13 @@
             // btnTaiKhoanThanhToan
             // 
             btnTaiKhoanThanhToan.BackColor = Color.Transparent;
-            btnTaiKhoanThanhToan.Font = new Font("SF Pro Display", 14.1428576F, FontStyle.Bold, GraphicsUnit.Point);
+            btnTaiKhoanThanhToan.Font = new Font("Microsoft Sans Serif", 14.1428576F, FontStyle.Bold, GraphicsUnit.Point);
             btnTaiKhoanThanhToan.ForeColor = Color.FromArgb(241, 111, 51);
-            btnTaiKhoanThanhToan.Location = new Point(3, 526);
+            btnTaiKhoanThanhToan.Location = new Point(2, 351);
+            btnTaiKhoanThanhToan.Margin = new Padding(2, 2, 2, 2);
             btnTaiKhoanThanhToan.Name = "btnTaiKhoanThanhToan";
-            btnTaiKhoanThanhToan.Padding = new Padding(0, 0, 30, 0);
-            btnTaiKhoanThanhToan.Size = new Size(444, 72);
+            btnTaiKhoanThanhToan.Padding = new Padding(0, 0, 20, 0);
+            btnTaiKhoanThanhToan.Size = new Size(296, 48);
             btnTaiKhoanThanhToan.TabIndex = 12;
             btnTaiKhoanThanhToan.Text = "Tài khoản thanh toán";
             btnTaiKhoanThanhToan.UseVisualStyleBackColor = false;
@@ -114,12 +121,13 @@
             // btnThuNhapSoDu
             // 
             btnThuNhapSoDu.BackColor = Color.Transparent;
-            btnThuNhapSoDu.Font = new Font("SF Pro Display", 14.1428576F, FontStyle.Bold, GraphicsUnit.Point);
+            btnThuNhapSoDu.Font = new Font("Microsoft Sans Serif", 14.1428576F, FontStyle.Bold, GraphicsUnit.Point);
             btnThuNhapSoDu.ForeColor = Color.FromArgb(241, 111, 51);
-            btnThuNhapSoDu.Location = new Point(3, 436);
+            btnThuNhapSoDu.Location = new Point(2, 291);
+            btnThuNhapSoDu.Margin = new Padding(2, 2, 2, 2);
             btnThuNhapSoDu.Name = "btnThuNhapSoDu";
-            btnThuNhapSoDu.Padding = new Padding(0, 0, 70, 0);
-            btnThuNhapSoDu.Size = new Size(444, 72);
+            btnThuNhapSoDu.Padding = new Padding(0, 0, 47, 0);
+            btnThuNhapSoDu.Size = new Size(296, 48);
             btnThuNhapSoDu.TabIndex = 11;
             btnThuNhapSoDu.Text = "Số dư và thu nhập";
             btnThuNhapSoDu.UseVisualStyleBackColor = false;
@@ -128,12 +136,13 @@
             // btnLichSuChuyenDi
             // 
             btnLichSuChuyenDi.BackColor = Color.Transparent;
-            btnLichSuChuyenDi.Font = new Font("SF Pro Display", 14.1428576F, FontStyle.Bold, GraphicsUnit.Point);
+            btnLichSuChuyenDi.Font = new Font("Microsoft Sans Serif", 14.1428576F, FontStyle.Bold, GraphicsUnit.Point);
             btnLichSuChuyenDi.ForeColor = Color.FromArgb(241, 111, 51);
-            btnLichSuChuyenDi.Location = new Point(3, 345);
+            btnLichSuChuyenDi.Location = new Point(2, 230);
+            btnLichSuChuyenDi.Margin = new Padding(2, 2, 2, 2);
             btnLichSuChuyenDi.Name = "btnLichSuChuyenDi";
-            btnLichSuChuyenDi.Padding = new Padding(0, 0, 75, 0);
-            btnLichSuChuyenDi.Size = new Size(444, 72);
+            btnLichSuChuyenDi.Padding = new Padding(0, 0, 50, 0);
+            btnLichSuChuyenDi.Size = new Size(296, 48);
             btnLichSuChuyenDi.TabIndex = 10;
             btnLichSuChuyenDi.Text = "Lịch sử chuyến đi";
             btnLichSuChuyenDi.UseVisualStyleBackColor = false;
@@ -142,12 +151,13 @@
             // btnThongTinTaiKhoan
             // 
             btnThongTinTaiKhoan.BackColor = Color.Transparent;
-            btnThongTinTaiKhoan.Font = new Font("SF Pro Display", 14.1428576F, FontStyle.Bold, GraphicsUnit.Point);
+            btnThongTinTaiKhoan.Font = new Font("Microsoft Sans Serif", 14.1428576F, FontStyle.Bold, GraphicsUnit.Point);
             btnThongTinTaiKhoan.ForeColor = Color.FromArgb(241, 111, 51);
-            btnThongTinTaiKhoan.Location = new Point(3, 255);
+            btnThongTinTaiKhoan.Location = new Point(2, 170);
+            btnThongTinTaiKhoan.Margin = new Padding(2, 2, 2, 2);
             btnThongTinTaiKhoan.Name = "btnThongTinTaiKhoan";
-            btnThongTinTaiKhoan.Padding = new Padding(0, 0, 60, 0);
-            btnThongTinTaiKhoan.Size = new Size(444, 72);
+            btnThongTinTaiKhoan.Padding = new Padding(0, 0, 40, 0);
+            btnThongTinTaiKhoan.Size = new Size(296, 48);
             btnThongTinTaiKhoan.TabIndex = 9;
             btnThongTinTaiKhoan.Text = "Thông tin tài khoản";
             btnThongTinTaiKhoan.UseVisualStyleBackColor = false;
@@ -157,51 +167,70 @@
             // 
             pictureBox2.BackColor = Color.Transparent;
             pictureBox2.Image = Properties.Resources.Avatar;
-            pictureBox2.Location = new Point(44, 86);
+            pictureBox2.Location = new Point(29, 57);
+            pictureBox2.Margin = new Padding(2, 2, 2, 2);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(84, 84);
+            pictureBox2.Size = new Size(56, 56);
             pictureBox2.TabIndex = 7;
             pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.iconStar;
-            pictureBox1.Location = new Point(143, 131);
+            pictureBox1.Location = new Point(95, 87);
+            pictureBox1.Margin = new Padding(2, 2, 2, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(36, 36);
+            pictureBox1.Size = new Size(24, 24);
             pictureBox1.TabIndex = 6;
             pictureBox1.TabStop = false;
             // 
             // lblRating
             // 
             lblRating.AutoSize = true;
-            lblRating.Font = new Font("SF Pro Display", 11.1428576F, FontStyle.Bold, GraphicsUnit.Point);
+            lblRating.Font = new Font("Microsoft Sans Serif", 11.1428576F, FontStyle.Bold, GraphicsUnit.Point);
             lblRating.ForeColor = Color.FromArgb(64, 64, 64);
-            lblRating.Location = new Point(177, 132);
+            lblRating.Location = new Point(118, 88);
+            lblRating.Margin = new Padding(2, 0, 2, 0);
             lblRating.Name = "lblRating";
-            lblRating.Size = new Size(54, 32);
+            lblRating.Size = new Size(38, 24);
             lblRating.TabIndex = 5;
             lblRating.Text = "5.0";
             // 
             // lblName
             // 
             lblName.AutoSize = true;
-            lblName.Font = new Font("SF Pro Display", 14.1428576F, FontStyle.Bold, GraphicsUnit.Point);
+            lblName.Font = new Font("Microsoft Sans Serif", 14.1428576F, FontStyle.Bold, GraphicsUnit.Point);
             lblName.ForeColor = Color.FromArgb(241, 111, 51);
-            lblName.Location = new Point(143, 86);
+            lblName.Location = new Point(95, 57);
+            lblName.Margin = new Padding(2, 0, 2, 0);
             lblName.Name = "lblName";
-            lblName.Size = new Size(263, 39);
+            lblName.Size = new Size(205, 29);
             lblName.TabIndex = 4;
             lblName.Text = "Phạm Thành Đạt";
             // 
+            // btnTroVe
+            // 
+            btnTroVe.BackColor = Color.Transparent;
+            btnTroVe.Font = new Font("Microsoft Sans Serif", 14.1428576F, FontStyle.Bold, GraphicsUnit.Point);
+            btnTroVe.ForeColor = Color.FromArgb(241, 111, 51);
+            btnTroVe.Location = new Point(2, 416);
+            btnTroVe.Margin = new Padding(2);
+            btnTroVe.Name = "btnTroVe";
+            btnTroVe.Padding = new Padding(0, 0, 47, 0);
+            btnTroVe.Size = new Size(296, 48);
+            btnTroVe.TabIndex = 15;
+            btnTroVe.Text = "Trở về";
+            btnTroVe.UseVisualStyleBackColor = false;
+            btnTroVe.Click += button1_Click;
+            // 
             // formNav
             // 
-            AutoScaleDimensions = new SizeF(12F, 30F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            //BackgroundImage = Properties.Resources.MạpUpdate;
-            ClientSize = new Size(561, 1202);
+            ClientSize = new Size(374, 703);
             Controls.Add(nav);
             Controls.Add(panel1);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "formNav";
             Text = "formNav";
             Load += formNav_Load;
@@ -228,5 +257,6 @@
         private Button btnThuNhapSoDu;
         private Button btnLichSuChuyenDi;
         private Button btnStartNow;
+        private Button btnTroVe;
     }
 }

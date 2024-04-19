@@ -50,7 +50,14 @@ namespace ProjectOOP
 
         private void btnTaiKhoanThanhToan_Click(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Hide();
+            new formHome().ShowDialog();
+            Close();
         }
     }
 }
