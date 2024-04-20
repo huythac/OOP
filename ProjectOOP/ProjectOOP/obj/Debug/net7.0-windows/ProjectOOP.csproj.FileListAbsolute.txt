@@ -1,0 +1,70 @@
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\Interop.WMPLib.dll
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\AxInterop.WMPLib.dll
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.csproj.ResolveComReference.cache
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.formSplash.resources
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.formCompleted.resources
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.formChiTiet.resources
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.formFood.resources
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.formHistory.resources
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.formHome.resources
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.formInfoAccount.resources
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.formMoving.resources
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.formNav.resources
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.formSignIn.resources
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.formSignUp.resources
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.Properties.Resources.resources
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.csproj.GenerateResource.cache
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.AssemblyInfoInputs.cache
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.AssemblyInfo.cs
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.csproj.CoreCompileInputs.cache
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.sourcelink.json
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\bin\Debug\net7.0-windows\ProjectOOP.exe
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\bin\Debug\net7.0-windows\ProjectOOP.deps.json
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\bin\Debug\net7.0-windows\ProjectOOP.runtimeconfig.json
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\bin\Debug\net7.0-windows\ProjectOOP.dll
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\bin\Debug\net7.0-windows\ProjectOOP.pdb
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\bin\Debug\net7.0-windows\Interop.WMPLib.dll
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\bin\Debug\net7.0-windows\AxInterop.WMPLib.dll
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.dll
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\refint\ProjectOOP.dll
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.pdb
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.genruntimeconfig.cache
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ref\ProjectOOP.dll
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.formBalancefortheday.resources
+D:\OOP-C#\Đồ án\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.formWallet.resources
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\Interop.WMPLib.dll
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\AxInterop.WMPLib.dll
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.csproj.ResolveComReference.cache
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.formSplash.resources
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.formBalancefortheday.resources
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.formCompleted.resources
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.formChiTiet.resources
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.formFood.resources
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.formHistory.resources
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.formHome.resources
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.formInfoAccount.resources
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.formMoving.resources
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.formNav.resources
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.formSignIn.resources
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.formSignUp.resources
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.formWallet.resources
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.Properties.Resources.resources
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.csproj.GenerateResource.cache
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.AssemblyInfoInputs.cache
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.AssemblyInfo.cs
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.csproj.CoreCompileInputs.cache
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.sourcelink.json
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.dll
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\refint\ProjectOOP.dll
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.pdb
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\bin\Debug\net7.0-windows\ProjectOOP.exe
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\bin\Debug\net7.0-windows\ProjectOOP.deps.json
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\bin\Debug\net7.0-windows\ProjectOOP.runtimeconfig.json
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\bin\Debug\net7.0-windows\ProjectOOP.dll
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\bin\Debug\net7.0-windows\ProjectOOP.pdb
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\bin\Debug\net7.0-windows\Interop.WMPLib.dll
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\bin\Debug\net7.0-windows\AxInterop.WMPLib.dll
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ProjectOOP.genruntimeconfig.cache
+D:\C#\Develop Desktop Applications\FinalProject\TestFinalProject\OOP\ProjectOOP\ProjectOOP\obj\Debug\net7.0-windows\ref\ProjectOOP.dll

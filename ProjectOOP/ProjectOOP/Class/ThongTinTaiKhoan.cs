@@ -5,16 +5,16 @@ using System.Threading.Tasks;
 
 namespace ProjectOOP.Class
 {
-    public class ThongTinTaiKhoan
+    public class ThongTinTaiKhoan:Person
     {
-        public string FullName { get; set; }
-        public string PhoneNumber { get; set; }
-        public string Password { get; set; }
-        public List<string> SelectedServices { get; set; }
+        public override string FullName { get; set; }
+        public override string PhoneNumber { get; set; }
+        public override string Password { get; set; }
+        public override List<string> SelectedServices { get; set; }
 
         public ThongTinTaiKhoan(string fullName, string phoneNumber, string password)
         {
-
+            FullName = fullName;
             PhoneNumber = phoneNumber;
             Password = password;
             SelectedServices = new List<string>();

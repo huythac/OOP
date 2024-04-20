@@ -93,39 +93,9 @@ namespace ProjectOOP.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Derect {
-            get {
-                object obj = ResourceManager.GetObject("Derect", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Derection_with_AR {
-            get {
-                object obj = ResourceManager.GetObject("Derection with AR", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Derection_with_AR_Version2 {
             get {
                 object obj = ResourceManager.GetObject("Derection with AR Version2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Destination {
-            get {
-                object obj = ResourceManager.GetObject("Destination", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,16 +143,6 @@ namespace ProjectOOP.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap iconMagnifying_glass {
-            get {
-                object obj = ResourceManager.GetObject("iconMagnifying-glass", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap iconMenu {
             get {
                 object obj = ResourceManager.GetObject("iconMenu", resourceCulture);
@@ -206,16 +166,6 @@ namespace ProjectOOP.Properties {
         internal static System.Drawing.Bitmap iconOption {
             get {
                 object obj = ResourceManager.GetObject("iconOption", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap iconPackage_fill {
-            get {
-                object obj = ResourceManager.GetObject("iconPackage-fill", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -256,26 +206,6 @@ namespace ProjectOOP.Properties {
         internal static System.Drawing.Bitmap LargeAvatar {
             get {
                 object obj = ResourceManager.GetObject("LargeAvatar", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Line {
-            get {
-                object obj = ResourceManager.GetObject("Line", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap LineNew {
-            get {
-                object obj = ResourceManager.GetObject("LineNew", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -333,29 +263,39 @@ namespace ProjectOOP.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap MạpUpdate {
-            get {
-                object obj = ResourceManager.GetObject("MạpUpdate", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Navigation_icon {
-            get {
-                object obj = ResourceManager.GetObject("Navigation icon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Navigation_icon___small {
             get {
                 object obj = ResourceManager.GetObject("Navigation icon - small", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Navigation_icon___small1 {
+            get {
+                object obj = ResourceManager.GetObject("Navigation icon - small1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NewMap {
+            get {
+                object obj = ResourceManager.GetObject("NewMap", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NewMap1 {
+            get {
+                object obj = ResourceManager.GetObject("NewMap1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
